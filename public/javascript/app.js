@@ -25,6 +25,18 @@
 		}).state('GetStarted',{
 			url: '/getStarted',
 			templateUrl: 'templates/getStarted.html'
+		}).state('Resources',{
+			url: '/resources',
+			templateUrl: 'templates/resources.html'
+		}).state('Stories',{
+			url: '/stories',
+			templateUrl: 'templates/stories.html'
+		}).state('Videos',{
+			url: '/videos',
+			templateUrl: 'templates/videos.html'
+		}).state('Contact',{
+			url: '/contact',
+			templateUrl: 'templates/contact.html'
 		});
 		$urlRouterProvider.otherwise('/');
 	}

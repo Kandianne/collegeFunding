@@ -38,13 +38,13 @@ body, html {
 
 md-input-container label {
 	color: #244717;
-	font-size: 1.6em;
+	font-size: 1.3em;
 }
 
 #signUp {
 	position: absolute;
 	right:0;
-	top: 0;
+	top: 17px;
 }
 /*==========================HOME PAGE==================================================================================*/
 
