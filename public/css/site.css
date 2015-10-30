@@ -32,6 +32,10 @@ body, html {
 	font-size: 1.6em;
 }
 
+#nav {
+	box-shadow: 1px 2px 9px #777;
+}
+
 #nav .md-button {
 	color: #244717;
 }
@@ -46,6 +50,8 @@ md-input-container label {
 	right:0;
 	top: 17px;
 }
+
+
 /*==========================HOME PAGE==================================================================================*/
 
 #ready {
@@ -72,3 +78,33 @@ md-input-container label {
 	animation-duration: 9s;
 }
 
+/*==========================GETIING STARTED PAGE==================================================================================*/
+
+.md-whiteframe-z1 {
+	margin: 3.7em auto;
+	height: 100%;
+}
+
+#getStarted i {
+	/*border: thin solid #244717;*/
+	/*box-shadow: 1px 2px 3px #244717;*/
+	background-color: #7CB342;
+	color: #fff;
+	padding: 6px;
+	margin-top: .6em;
+	border-radius: 3px;
+}
+
+#getStarted p {
+	margin-left: 1.3em;
+	margin-top: .6em;
+	margin-bottom: .6em;
+}
+
+/*==========================VIDEOS==================================================================================*/
+#videos {
+	margin: auto;
+}
+#videos div {
+	margin: 3em;
+}
