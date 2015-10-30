@@ -3,9 +3,14 @@
 	angular.module('app')
 	.controller('HomeController', HomeController);
 
-	HomeController.$inject = [];
+	HomeController.$inject = ['$location', '$scope'];
 
-	function HomeController() {
+	function HomeController($location, $scope) {
 		var vm = this;
+
+
+		$scope.isCurrentPath = function (path) {
+			return $location.path() == path;
+		};
 	}
 })();

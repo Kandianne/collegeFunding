@@ -35,7 +35,14 @@
 </a>
 </md-button>
 <md-button class="md-icon-button">
-<i class="fa fa-youtube-square"></i>
+<a href="https://www.youtube.com/channel/UCNkDLQOuMCa03qxwwsMT5iQ"  target="_blank">
+	<i class="fa fa-youtube-square"></i>
+</a>
+</md-button>
+<md-button class="md-icon-button">
+<a href="">
+	<i class="fa fa-twitter-square"></i>
+</a>
 </md-button>
 </div>
 </md-toolbar>
@@ -49,7 +56,7 @@
 		</h3>
 
 		<md-card flex="19">
-		<md-card-content>
+		<md-card-content class="md-button">
 		<a href="http://collegefundingremedies.com/wellsfargo/" target="_blank">
 			FREE Workshop
 		</a>		
@@ -57,10 +64,10 @@
 </md-card>
 
 <md-card flex="19"  ng-click="freeBook = !freeBook;" layout-wrap>
-<md-card-content>
-
-FREE Book
-
+<md-card-content class="md-button">
+<a href="">
+	FREE Book
+</a>
 </md-card-content>
 </md-card>
 
@@ -71,11 +78,13 @@ FREE Book
 
 
 
-<md-toolbar class="md-accent">
-<div class="md-toolbar-tools" layout="row" layout-md="column" layout-align="center center" layout-wrap  id="nav">
-	<md-button class="md-button" ui-sref="About">
-	About
-</md-button>
+<md-toolbar class="md-accent"  ng-controller="HomeController">
+<div class="md-toolbar-tools nav" layout="row" layout-md="column" layout-align="center center" layout-wrap ng-class="{ active: isCurrentPath('/about') }" id="nav">
+	<a href="#/about">
+		<md-button class="md-button">
+		About
+	</md-button>
+</a>
 <md-button class="md-button" ui-sref="GetStarted" >
 Get Started
 </md-button>

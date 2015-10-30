@@ -3,6 +3,9 @@ body, html {
 	width: 100%;
 }
 
+a {
+	text-decoration: none;
+}
 /*==========================WELCOME HEADER==================================================================================*/
 #mainPic {
 	height: 460px;
@@ -14,8 +17,12 @@ body, html {
 	padding-top: 370px;
 	font-size: 1em;
 	text-align: center;
+	color: #244717;
 }
 
+#ctaCards a:visited {
+	color: #244717;
+}
 
 #ctaCards h3 {
 	color: white;
@@ -39,7 +46,13 @@ body, html {
 #nav .md-button {
 	color: #244717;
 }
+#nav a:hover {
+	border-bottom: thick solid #244717; 
+}
 
+.nav a:active {
+	border-bottom: thick solid #244717; 
+}
 md-input-container label {
 	color: #244717;
 	font-size: 1.3em;
@@ -107,4 +120,17 @@ md-input-container label {
 }
 #videos div {
 	margin: 3em;
+}
+
+/*==========================CONTACT==================================================================================*/
+
+#contact {
+	margin: 6% auto;
+}
+#contact a {
+	color: #244717;
+	font-size: 2.7em;
+}
+.pulse {
+	animation-duration: 5s;
 }
