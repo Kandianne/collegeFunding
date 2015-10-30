@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>College Funding Remedies</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap_theme.css"> -->
+	<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.4.0/animate.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/0.11.4/angular-material.css">
+	<link rel="stylesheet" type="text/css" href="/css/site.css">
+</head>
+<body>
+
+	<md-content ng-cloak>
+
+	<md-toolbar>
+	<div class="md-toolbar-tools">
+		<md-button ui-sref="Home" class="md-icon-button" aria-label="Settings">
+		<i class="fa fa-home"></i>
+	</md-button>
+	<h2>
+		<span>
+			College Funding Remedies
+		</span>
+	</h2>
+	<span flex></span>
+	<md-button class="md-button">
+	(626) 657-7887
+</md-button>
+<md-button class="md-icon-button">
+<i class="fa fa-facebook-square"></i>
+</md-button>
+<md-button class="md-icon-button">
+<i class="fa fa-youtube-square"></i>
+</md-button>
+</div>
+</md-toolbar>
+
+
+<div class="md-tall md-primary md-hue-1" id="mainPic">
+	<div layout="row" layout-align="center center" id="ctaCards">
+
+		<h3>
+			How To Send Your Kids To The Best, Most Expensive Colleges In America For Pennies On The Dollar!
+		</h3>
+
+		<md-card flex="19">
+		<md-card-content>
+		
+		FREE Webinar
+		
+	</md-card-content>
+</md-card>
+
+<md-card flex="19"  ng-click="freeBook = !freeBook;" layout-wrap>
+<md-card-content>
+
+FREE Book
+
+</md-card-content>
+</md-card>
+
+
+</div>
+
+</div>
+
+
+
+<md-toolbar class="md-accent">
+<div class="md-toolbar-tools" layout="row" layout-md="column" layout-align="center center" layout-wrap  id="nav">
+	<md-button class="md-button" ui-sref="About">
+	About
+</md-button>
+<md-button class="md-button" ui-sref="GetStarted" >
+Get Started
+</md-button>
+<md-button class="md-button" >
+Free Resources
+</md-button>
+<md-button class="md-button" >
+Success Stories
+</md-button>
+<md-button class="md-button" >
+Videos
+</md-button>
+<md-button class="md-button" >
+Contact
+</md-button>
+</div>
+</md-toolbar>
+</md-content>
+
+
+<md-card ng-hide="!freeBook" flex="30" layout-padding layout="row" layout-md="column" layout-wrap id="signUp" class="animated fadeInRight">
+<md-card-content >
+<h4>Sign Up</h4>
+<md-input-container>
+<label>
+	First Name
+</label>
+<input  type="text">
+</md-input-container>
+
+<md-input-container>
+<label>
+	Email
+</label>
+<input  type="email">
+</md-input-container>
+<md-button class="md-button">
+SUBMIT FOR FREE BOOK
+</md-button>
+</md-card-content>
+</md-card>
+
+
+<ui-view></ui-view>
+<!-- Ext Libs -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.6/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-aria.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/0.11.4/angular-material.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.6/angular-animate.min.js"></script>
+
+<!-- Global Src -->
+<script src="/javascript/app.js"></script>
+<!-- Factories -->
+<script src="/javascript/services/HomeFactory.js"></script>
+<!-- Controllers -->
+<script src="/javascript/controllers/HomeController.js"></script>
+</body>
+</html>

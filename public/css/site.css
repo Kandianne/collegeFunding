@@ -1,0 +1,74 @@
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+/*==========================WELCOME HEADER==================================================================================*/
+#mainPic {
+	height: 460px;
+	background: url("http://i.huffpost.com/gen/3398570/images/o-HAPPY-COLLEGE-STUDENTS-facebook.jpg") center center no-repeat;
+	background-size: cover;
+}
+
+#ctaCards {
+	padding-top: 370px;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+
+#ctaCards h3 {
+	color: white;
+	/*text-shadow: 1px 1px 3px #000;*/
+	font-weight: bold;
+	font-size: 1.3em;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.6);
+	margin-left: .5em;
+	padding: .6em;
+}
+
+.fa {
+	font-size: 1.6em;
+}
+
+#nav .md-button {
+	color: #244717;
+}
+
+md-input-container label {
+	color: #244717;
+	font-size: 1.6em;
+}
+
+#signUp {
+	position: absolute;
+	right:0;
+	top: 0;
+}
+/*==========================HOME PAGE==================================================================================*/
+
+#ready {
+	margin-top:70px;
+	margin-bottom: 9%;
+	text-align: center;
+}
+
+#ready h3{
+	color: #244717;
+	font-size: 2.6em;
+	/*text-shadow: 1px 1px 3px #000;*/
+	/*font-weight: bold;*/
+}
+
+#ready i{
+	color: #244717;
+	font-size: 4em;
+	margin: auto .3em;
+	/*text-shadow: 1px 2px 3px #244717;*/
+}
+
+.flash {
+	animation-duration: 9s;
+}
+
