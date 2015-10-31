@@ -1,11 +1,14 @@
 body, html {
 	height: 100%;
 	width: 100%;
+	color:#244717;
 }
 
 a {
 	text-decoration: none;
 }
+
+
 /*==========================WELCOME HEADER==================================================================================*/
 #mainPic {
 	height: 460px;
@@ -46,13 +49,14 @@ a {
 #nav .md-button {
 	color: #244717;
 }
-#nav a:hover {
-	border-bottom: thick solid #244717; 
+#nav .md-button:hover {
+	border-bottom: 3px solid #244717; 
 }
 
-.nav a:active {
-	border-bottom: thick solid #244717; 
+.active {
+	border-bottom: 3px solid #244717; 
 }
+
 md-input-container label {
 	color: #244717;
 	font-size: 1.3em;
@@ -133,4 +137,21 @@ md-input-container label {
 }
 .pulse {
 	animation-duration: 5s;
+}
+
+/*==========================ABOUT==================================================================================*/
+
+#about img {
+	float: left;
+	margin: 0 1em 1em 1em;
+}
+
+#q-list li {
+	list-style: none;
+	line-height: 1.5em;
+	font-size: 1em;
+}
+
+#q-list i {
+	font-size: .9em;
 }

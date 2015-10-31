@@ -13,6 +13,7 @@
 </head>
 <body>
 
+
 	<md-content ng-cloak>
 
 	<md-toolbar>
@@ -79,27 +80,44 @@
 
 
 <md-toolbar class="md-accent"  ng-controller="HomeController">
-<div class="md-toolbar-tools nav" layout="row" layout-md="column" layout-align="center center" layout-wrap ng-class="{ active: isCurrentPath('/about') }" id="nav">
+<div class="md-toolbar-tools" layout="row" layout-md="column" layout-align="center center" layout-wrap  id="nav">
 	<a href="#/about">
-		<md-button class="md-button">
+		<md-button class="md-button" ng-class="{ active: isCurrentPath('/about') }">
 		About
 	</md-button>
 </a>
-<md-button class="md-button" ui-sref="GetStarted" >
-Get Started
+
+<a href="#/getStarted">
+	<md-button class="md-button" ng-class="{ active: isCurrentPath('/getStarted') }">
+	Get Started
 </md-button>
-<md-button class="md-button" ui-sref="Resources">
-Free Resources
+</a>
+
+<a href="#/resources">
+	<md-button class="md-button" ng-class="{ active: isCurrentPath('/resources') }">
+	Free Resources
 </md-button>
-<md-button class="md-button" ui-sref="Stories" >
-Success Stories
+</a>
+
+<a href="#/stories">
+	<md-button class="md-button" ng-class="{ active: isCurrentPath('/stories') }" >
+	Success Stories
 </md-button>
-<md-button class="md-button" ui-sref="Videos">
-Videos
+</a>
+
+<a href="#/videos">
+	<md-button class="md-button" ng-class="{ active: isCurrentPath('/videos') }">
+	Videos
 </md-button>
-<md-button class="md-button" ui-sref="Contact">
-Contact
+</a>
+
+<a href="#/contact">
+	<md-button class="md-button" ng-class="{ active: isCurrentPath('/contact') }">
+	Contact
 </md-button>
+</a>
+
+
 </div>
 </md-toolbar>
 </md-content>
