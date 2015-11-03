@@ -8,7 +8,22 @@ a {
 	text-decoration: none;
 }
 
+/*==========================SEPARATOR STYLING==================================================================================*/
 
+#bigHalfCircle {
+	fill: #244717;
+	stroke: #244717;
+}
+
+#trianglePath1 {
+	fill: #244717;
+	stroke: #244717;
+}
+
+#bigTriangleShadow {
+	fill: #fff;
+	stroke: #fff;
+}
 /*==========================WELCOME HEADER==================================================================================*/
 #mainPic {
 	height: 460px;
@@ -155,3 +170,17 @@ md-input-container label {
 #q-list i {
 	font-size: .9em;
 }
+
+#services {
+	margin:auto;
+	margin-top: -.3em;
+	background: #244717;
+	color: #fff;
+	padding: .6em 3em;
+}
+
+#services h3 {
+	text-align: center;
+	margin-top: -2em;
+}
+
