@@ -156,9 +156,14 @@ md-input-container label {
 
 /*==========================ABOUT==================================================================================*/
 
+#about {
+	padding: 1em 6em;
+}
+
 #about img {
 	float: left;
 	margin: 0 1em 1em 1em;
+	width: 30%;
 }
 
 #q-list li {
