@@ -6,6 +6,7 @@ body, html {
 
 a {
 	text-decoration: none;
+	color:#244717;
 }
 
 /*==========================SEPARATOR STYLING==================================================================================*/
@@ -87,7 +88,7 @@ md-input-container label {
 /*==========================HOME PAGE==================================================================================*/
 
 #ready {
-	margin-top:70px;
+	margin-top:3%;
 	margin-bottom: 9%;
 	text-align: center;
 }
