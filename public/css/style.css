@@ -1,19 +1,75 @@
-/* line 3, ../compass/sass/style.scss */
+/* line 7, ../compass/sass/style.scss */
 body, html {
   color: #237a2b;
   height: 100%;
   width: 100%;
 }
-/* line 7, ../compass/sass/style.scss */
+/* line 11, ../compass/sass/style.scss */
 body a, html a {
   text-decoration: none;
 }
 
-/* line 13, ../compass/sass/style.scss */
+/* line 17, ../compass/sass/style.scss */
 #nav {
   box-shadow: 1px 2px 9px #777;
+  background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, $primary-color, $secondary-color); /* Standard syntax (must be last) 
+  /*background-color: #237a2b;
+  background-color: -webkit-linear-gradient(left, #237a2b, white);
+  background-color: -o-linear-gradient(right, #237a2b, white);
+  background-color: -moz-linear-gradient(right, #237a2b, white);
+  background-color: linear-gradient(to right, #237a2b, white);*/
 }
-/* line 15, ../compass/sass/style.scss */
+/* line 24, ../compass/sass/style.scss */
 #nav .md-button {
+  color: #000;
+}
+
+/* line 29, ../compass/sass/style.scss */
+.md-toolbar-tools {
+  background-color: #237a2b;
+}
+
+/*==========================HOME PAGE==================================================================================*/
+/* line 35, ../compass/sass/style.scss */
+#ready {
+  margin-top: 3%;
+  margin-bottom: 9%;
+  text-align: center;
+}
+/* line 39, ../compass/sass/style.scss */
+#ready h3 {
   color: #237a2b;
+  font-size: 2.6em;
+  /*text-shadow: 1px 1px 3px #000;*/
+  /*font-weight: bold;*/
+}
+/* line 45, ../compass/sass/style.scss */
+#ready i {
+  color: #237a2b;
+  font-size: 4em;
+  margin: auto .3em;
+  /*text-shadow: 1px 2px 3px #244717;*/
+}
+
+/*==========================SEPARATOR STYLING==================================================================================*/
+/* line 56, ../compass/sass/style.scss */
+#bigHalfCircle {
+  fill: #244717;
+  stroke: #244717;
+}
+
+/* line 61, ../compass/sass/style.scss */
+#trianglePath1 {
+  fill: #244717;
+  stroke: #244717;
+}
+
+/* line 66, ../compass/sass/style.scss */
+#bigTriangleShadow {
+  fill: #fff;
+  stroke: #fff;
 }
