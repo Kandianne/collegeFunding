@@ -1,7 +1,7 @@
 {
 	"name": "appname",
 	"version": "0.0.0",
-	"description": "An application for the Coder Camps FullStack JS course",
+	"description": "An application for College Funding Remedies",
 	"main": "server.js",
 	"scripts": {
 		"start": "nodemon server.js"
