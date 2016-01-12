@@ -3,6 +3,7 @@ $secondary-color : #5ba63d;
 $accentStandOut-color: #e79d03;
 $accentStandOutTwo-color: #f6d727;
 $standard-color: #000;
+$nonStandout-color: #fff;
 
 body, html {
 	color: $primary-color;
@@ -22,7 +23,7 @@ body, html {
     background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b); /* Standard syntax (must be last) */
 	.md-button {
-		color: $standard-color;
+		color: $nonStandout-color;
 	}
 	.md-button:hover {
 		border-bottom: 3px solid $standard-color;
@@ -76,15 +77,31 @@ body, html {
 
 #threeMainCtas div {
 	background: $primary-color;
-	width: 300px;
-	height: 300px;
+	box-shadow: #777 1px 2px 13px;
+	width: 260px;
+	height: 260px;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	color: $standard-color;
+	color: $nonStandout-color;
+	// 	background: -webkit-radial-gradient(circle, #5ba63d, #237a2b, #5ba63d); /* For Safari 5.1 to 6.0 */
+ 	//    background: -o-radial-gradient(circle, #5ba63d, #237a2b, #5ba63d); /* For Opera 11.1 to 12.0 */
+ 	//    background: -moz-radial-gradient(circle, #5ba63d, #237a2b, #5ba63d); /* For Firefox 3.6 to 15 */
+ 	//    background: radial-gradient(to circle, #237a2b, #237a2b, #5ba63d); /* Standard syntax (must be last) */
+    text-align: center;
+    padding-top: 4em;
+    padding-left: 1.3em;
+    padding-right: .3;
+    margin: auto 2em;
 	i {
-		color: $accentStandOut-color;
-		font-size: 2em;
+		font-size: 3.9em;
+	}
+	a{
+		color: $nonStandout-color;
+	}
+	.md-button {
+		color: $nonStandout-color;
+
 	}
 }
 
@@ -104,4 +121,14 @@ body, html {
 #bigTriangleShadow {
 	fill: #fff;
 	stroke: #fff;
+}
+
+
+//==============SOME MERDIA Q==============================
+@media only screen and (min-width : 300px) and (max-width : 960px) {
+
+   #freeCtas {
+   	font-size: red;
+   }
+
 }
