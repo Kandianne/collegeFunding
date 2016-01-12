@@ -15,18 +15,25 @@
 <md-content ng-cloak>
 	<md-toolbar>
 	<div class="md-toolbar-tools">
-		<md-button ui-sref="Home" class="md-icon-button" aria-label="Settings">
+		<!-- <md-button ui-sref="Home" class="md-icon-button" aria-label="Settings">
+		<div>
 		<i class="fa fa-home"></i>
-		</md-button>
-		<h2>
+		</div>
+		</md-button> -->
+		<div>
 			<md-button ui-sref="Home">
 				College Funding Remedies
 			</md-button>
-		</h2>
+		</div>
 		<span flex></span>
-			<md-button class="md-button">
-				(626) 657-7887
+			<md-button class="md-icon-button">
+			<a href="">
+			<i class="fa fa-phone"></i>
+			</a>
 			</md-button>
+			<!-- <md-button class="md-button">
+				(626) 657-7887
+			</md-button> -->
 		<md-button class="md-icon-button">
 		<a href="https://www.facebook.com/BestCollegesForPenniesOnTheDollar/" target="_blank">
 		<i class="fa fa-facebook-square"></i>
@@ -47,30 +54,38 @@
 
 
 <div class="md-tall md-primary md-hue-1" id="mainPic">
-	<div layout="row" layout-align="center center" id="ctaCards">
 
-		<h3>
-			How To Send Your Kids To The Best, Most Expensive Colleges In America For Pennies On The Dollar!
-		</h3>
+		<div layout="column" flex="20" id="freeCtas">
+				<md-card>
+				<md-card-content class="md-button">
+					<a href="http://collegefundingremedies.com/wellsfargo/" target="_blank">
+						FREE Workshop
+					</a>		
+				</md-card-content>
+				</md-card>
 
-		<md-card flex="19">
-		<md-card-content class="md-button">
-		<a href="http://collegefundingremedies.com/wellsfargo/" target="_blank">
-			FREE Workshop
-		</a>		
-	</md-card-content>
-</md-card>
+				<md-card  ng-click="freeBook = !freeBook;" layout-wrap>
+				<md-card-content class="md-button">
+					<a href="">
+						FREE Book
+					</a>
+				</md-card-content>
+				</md-card>
 
-<md-card flex="19"  ng-click="freeBook = !freeBook;" layout-wrap>
-<md-card-content class="md-button">
-<a href="">
-	FREE Book
-</a>
-</md-card-content>
-</md-card>
+				<md-card  ng-click="freeBook = !freeBook;" layout-wrap>
+				<md-card-content class="md-button">
+					<a href="">
+						FREE Consultation
+					</a>
+				</md-card-content>
+				</md-card>
+		</div>
 
-
-</div>
+		<div layout="row" layout-align="center center" id="ctaCards">
+			<h3>
+				How To Send Your Kids To The Best, Most Expensive Colleges In America For Pennies On The Dollar!
+			</h3>
+		</div>
 
 </div>
 

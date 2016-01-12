@@ -37,6 +37,23 @@ body, html {
 	border-bottom: 3px solid $standard-color; 
 }
 
+/*==========================WELCOME HEADER==================================================================================*/
+
+#ctaCards {
+	padding-top: 370px;
+	font-size: 1em;
+	text-align: center;
+	color: #244717;
+}
+
+#freeCtas {
+	padding-top: 9%;
+	position: absolute;
+	left: -6px;
+	a {
+		color: $standard-color;
+	}
+}
 /*==========================HOME PAGE==================================================================================*/
 
 #ready {
@@ -54,7 +71,21 @@ body, html {
 	font-size: 4em;
 	margin: auto .3em;
 	/*text-shadow: 1px 2px 3px #244717;*/
+	}
 }
+
+#threeMainCtas div {
+	background: $primary-color;
+	width: 300px;
+	height: 300px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	color: $standard-color;
+	i {
+		color: $accentStandOut-color;
+		font-size: 2em;
+	}
 }
 
 

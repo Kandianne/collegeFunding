@@ -41,21 +41,41 @@ body a, html a {
   border-bottom: 3px solid #000;
 }
 
-/*==========================HOME PAGE==================================================================================*/
+/*==========================WELCOME HEADER==================================================================================*/
 /* line 42, ../compass/sass/style.scss */
+#ctaCards {
+  padding-top: 370px;
+  font-size: 1em;
+  text-align: center;
+  color: #244717;
+}
+
+/* line 49, ../compass/sass/style.scss */
+#freeCtas {
+  padding-top: 9%;
+  position: absolute;
+  left: -6px;
+}
+/* line 53, ../compass/sass/style.scss */
+#freeCtas a {
+  color: #000;
+}
+
+/*==========================HOME PAGE==================================================================================*/
+/* line 59, ../compass/sass/style.scss */
 #ready {
   margin-top: 3%;
   margin-bottom: 9%;
   text-align: center;
 }
-/* line 46, ../compass/sass/style.scss */
+/* line 63, ../compass/sass/style.scss */
 #ready h3 {
   color: #237a2b;
   font-size: 2.6em;
   /*text-shadow: 1px 1px 3px #000;*/
   /*font-weight: bold;*/
 }
-/* line 52, ../compass/sass/style.scss */
+/* line 69, ../compass/sass/style.scss */
 #ready i {
   color: #237a2b;
   font-size: 4em;
@@ -63,20 +83,36 @@ body a, html a {
   /*text-shadow: 1px 2px 3px #244717;*/
 }
 
+/* line 77, ../compass/sass/style.scss */
+#threeMainCtas div {
+  background: #237a2b;
+  width: 300px;
+  height: 300px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  color: #000;
+}
+/* line 85, ../compass/sass/style.scss */
+#threeMainCtas div i {
+  color: #e79d03;
+  font-size: 2em;
+}
+
 /*==========================SEPARATOR STYLING==================================================================================*/
-/* line 63, ../compass/sass/style.scss */
+/* line 94, ../compass/sass/style.scss */
 #bigHalfCircle {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 68, ../compass/sass/style.scss */
+/* line 99, ../compass/sass/style.scss */
 #trianglePath1 {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 73, ../compass/sass/style.scss */
+/* line 104, ../compass/sass/style.scss */
 #bigTriangleShadow {
   fill: #fff;
   stroke: #fff;
