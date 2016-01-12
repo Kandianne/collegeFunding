@@ -16,18 +16,25 @@ body, html {
 //==========================NAVIGATION==========================================
 #nav {
 	box-shadow: 1px 2px 9px #777;
-	background-color: $primary-color;
-    background-color: -webkit-linear-gradient(left, #237a2b, #5ba63d); 
-    background-color: -o-linear-gradient(right, #237a2b, #5ba63d); 
-    background-color: -moz-linear-gradient(right, #237a2b, #5ba63d); 
-  	background-color: linear-gradient(to right, #237a2b, #5ba63d); 
+	background: $primary-color;
+    background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #237a2b, #5ba63d, #237a2b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b); /* Standard syntax (must be last) */
 	.md-button {
 		color: $standard-color;
+	}
+	.md-button:hover {
+		border-bottom: 3px solid $standard-color;
 	}
 }
 
 .md-toolbar-tools {
 	background-color: $primary-color;
+}
+
+.active {
+	border-bottom: 3px solid $standard-color; 
 }
 
 /*==========================HOME PAGE==================================================================================*/

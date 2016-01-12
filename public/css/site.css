@@ -33,17 +33,6 @@
 }
 
 
-#nav .md-button {
-	color: #244717;
-}
-#nav .md-button:hover {
-	border-bottom: 3px solid #244717; 
-}
-
-.active {
-	border-bottom: 3px solid #244717; 
-}
-
 md-input-container label {
 	color: #244717;
 	font-size: 1.3em;
