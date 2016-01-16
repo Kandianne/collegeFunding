@@ -10,7 +10,7 @@ body a, html a {
   text-decoration: none;
 }
 
-/* line 19, ../compass/sass/style.scss */
+/* line 20, ../compass/sass/style.scss */
 #nav {
   box-shadow: 1px 2px 9px #777;
   background: #237a2b;
@@ -23,115 +23,130 @@ body a, html a {
   background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
   /* Standard syntax (must be last) */
 }
-/* line 26, ../compass/sass/style.scss */
+/* line 27, ../compass/sass/style.scss */
 #nav .md-button {
   color: #fff;
 }
-/* line 29, ../compass/sass/style.scss */
+/* line 30, ../compass/sass/style.scss */
 #nav .md-button:hover {
   border-bottom: 3px solid #000;
 }
 
-/* line 34, ../compass/sass/style.scss */
+/* line 35, ../compass/sass/style.scss */
 .md-toolbar-tools {
   background-color: #237a2b;
 }
-/* line 36, ../compass/sass/style.scss */
+/* line 37, ../compass/sass/style.scss */
 .md-toolbar-tools i {
   color: #5ba63d;
 }
-/* line 39, ../compass/sass/style.scss */
+/* line 40, ../compass/sass/style.scss */
 .md-toolbar-tools div .md-button {
   color: #5ba63d;
 }
 
-/* line 44, ../compass/sass/style.scss */
+/* line 45, ../compass/sass/style.scss */
 .active {
   border-bottom: 3px solid #000;
 }
 
+/* line 51, ../compass/sass/style.scss */
+footer {
+  width: 100%;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  height: 50px;
+  padding: auto;
+  bottom: 0;
+}
+/* line 59, ../compass/sass/style.scss */
+footer p {
+  font-size: .9em;
+}
+
 /*==========================WELCOME HEADER==================================================================================*/
-/* line 50, ../compass/sass/style.scss */
+/* line 66, ../compass/sass/style.scss */
 #ctaCards {
   font-size: 1em;
   text-align: center;
   color: #244717;
 }
 
-/* line 56, ../compass/sass/style.scss */
+/* line 72, ../compass/sass/style.scss */
 #freeCtas {
   padding-top: 6%;
   position: absolute;
   left: -6px;
 }
-/* line 60, ../compass/sass/style.scss */
+/* line 76, ../compass/sass/style.scss */
 #freeCtas a {
   color: #000;
 }
 
 /*==========================HOME PAGE==================================================================================*/
-/* line 66, ../compass/sass/style.scss */
+/* line 82, ../compass/sass/style.scss */
 #ready {
-  margin-top: 3em;
+  margin-top: 4em;
   margin-bottom: 3em;
   text-align: center;
 }
-/* line 70, ../compass/sass/style.scss */
+/* line 86, ../compass/sass/style.scss */
 #ready h3 {
   color: #000;
   font-size: 2em;
 }
-/* line 74, ../compass/sass/style.scss */
+/* line 90, ../compass/sass/style.scss */
 #ready i {
   color: #000;
   font-size: 4em;
   margin: auto .3em;
 }
 
-/* line 81, ../compass/sass/style.scss */
+/* line 97, ../compass/sass/style.scss */
 #threeMainCtas {
   margin: auto;
   margin-bottom: 3.7em;
   text-align: center;
   height: 300px;
 }
-/* line 86, ../compass/sass/style.scss */
+/* line 102, ../compass/sass/style.scss */
 #threeMainCtas div {
   color: #000;
   margin: auto;
   padding: auto;
 }
-/* line 97, ../compass/sass/style.scss */
+/* line 113, ../compass/sass/style.scss */
 #threeMainCtas h5 {
   color: #237a2b;
   font-weight: bold;
 }
-/* line 101, ../compass/sass/style.scss */
+/* line 117, ../compass/sass/style.scss */
 #threeMainCtas p {
   width: 79%;
   margin: auto;
 }
-/* line 105, ../compass/sass/style.scss */
+/* line 121, ../compass/sass/style.scss */
 #threeMainCtas i {
   font-size: 3em;
   color: #237a2b;
   margin-top: .3em;
 }
-/* line 110, ../compass/sass/style.scss */
+/* line 126, ../compass/sass/style.scss */
 #threeMainCtas a {
   color: #000;
   padding: auto 1.6em;
 }
-/* line 114, ../compass/sass/style.scss */
+/* line 130, ../compass/sass/style.scss */
 #threeMainCtas .md-button {
   color: #000;
 }
 
-/* line 120, ../compass/sass/style.scss */
+/* line 136, ../compass/sass/style.scss */
 #deadlines {
   margin-top: 1.7em;
   padding-top: 4em;
-  padding-bottom: 4em;
+  padding-bottom: 6em;
   background: #237a2b;
   background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b);
   /* For Safari 5.1 to 6.0 */
@@ -142,26 +157,41 @@ body a, html a {
   background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
   /* Standard syntax (must be last) */
 }
-/* line 129, ../compass/sass/style.scss */
+/* line 145, ../compass/sass/style.scss */
 #deadlines h2 {
   color: #fff;
-  margin-bottom: 3em;
+  margin-bottom: 3.6em;
+}
+
+/* line 151, ../compass/sass/style.scss */
+#letterToParents {
+  color: #000;
+  margin: auto;
+}
+/* line 154, ../compass/sass/style.scss */
+#letterToParents div {
+  padding: 1em 2em;
+  margin: 2em auto;
+}
+/* line 158, ../compass/sass/style.scss */
+#letterToParents h2 {
+  text-align: center;
 }
 
 /*==========================SEPARATOR STYLING==================================================================================*/
-/* line 137, ../compass/sass/style.scss */
+/* line 165, ../compass/sass/style.scss */
 #bigHalfCircle {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 142, ../compass/sass/style.scss */
+/* line 170, ../compass/sass/style.scss */
 #trianglePath1 {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 147, ../compass/sass/style.scss */
+/* line 175, ../compass/sass/style.scss */
 #bigTriangleShadow {
   fill: #fff;
   stroke: #fff;

@@ -15,148 +15,134 @@
 
 <md-content ng-cloak>
 	<md-toolbar>
-	<div class="md-toolbar-tools">
-		<!-- <md-button ui-sref="Home" class="md-icon-button" aria-label="Settings">
-		<div>
-		<i class="fa fa-home"></i>
-		</div>
-		</md-button> -->
-		<div>
-			<md-button ui-sref="Home" class="md-button">
-				College Funding Remedies
-			</md-button>
-		</div>
-		<span flex></span>
+		<div class="md-toolbar-tools">
+			<div>
+				<md-button ui-sref="Home" class="md-button">
+					College Funding Remedies
+				</md-button>
+			</div>
+			<span flex></span>
+				<md-button class="md-icon-button">
+				<a href="">
+				<i class="fa fa-phone"></i>
+				</a>
+				</md-button>
+				<!-- <md-button class="md-button">
+					(626) 657-7887
+				</md-button> -->
 			<md-button class="md-icon-button">
-			<a href="">
-			<i class="fa fa-phone"></i>
-			</a>
+				<a href="https://www.facebook.com/BestCollegesForPenniesOnTheDollar/" target="_blank">
+				<i class="fa fa-facebook-square"></i>
+				</a>
 			</md-button>
-			<!-- <md-button class="md-button">
-				(626) 657-7887
-			</md-button> -->
-		<md-button class="md-icon-button">
-		<a href="https://www.facebook.com/BestCollegesForPenniesOnTheDollar/" target="_blank">
-		<i class="fa fa-facebook-square"></i>
-		</a>
-		</md-button>
-		<md-button class="md-icon-button">
-		<a href="https://www.youtube.com/channel/UCNkDLQOuMCa03qxwwsMT5iQ"  target="_blank">
-			<i class="fa fa-youtube-square"></i>
-		</a>
-		</md-button>
-		<md-button class="md-icon-button">
-		<a href="">
-			<i class="fa fa-twitter-square"></i>
-		</a>
-		</md-button>
+			<md-button class="md-icon-button">
+				<a href="https://www.youtube.com/channel/UCNkDLQOuMCa03qxwwsMT5iQ"  target="_blank">
+					<i class="fa fa-youtube-square"></i>
+				</a>
+			</md-button>
+			<md-button class="md-icon-button">
+				<a href="">
+					<i class="fa fa-twitter-square"></i>
+				</a>
+			</md-button>
+		</div>
+	</md-toolbar>
+
+	<div class="md-tall md-primary md-hue-1" id="mainPic">
+			<div layout="row" layout-align="center center" id="ctaCards">
+				<h3>
+					How To Send Your Kids To The Best, Most Expensive Colleges In America For Pennies On The Dollar!
+				</h3>
+			</div>
+			<div layout="column" flex="20" id="freeCtas">
+					<md-card>
+					<md-card-content class="md-button">
+						<a href="http://collegefundingremedies.com/wellsfargo/" target="_blank">
+							FREE Workshop
+						</a>		
+					</md-card-content>
+					</md-card>
+
+					<md-card  ng-click="freeBook = !freeBook;" layout-wrap>
+					<md-card-content class="md-button">
+						<a href="">
+							FREE Book
+						</a>
+					</md-card-content>
+					</md-card>
+
+					<md-card  ng-click="freeBook = !freeBook;" layout-wrap>
+					<md-card-content class="md-button">
+						<a href="">
+							FREE Consultation
+						</a>
+					</md-card-content>
+					</md-card>
+			</div>
 	</div>
-</md-toolbar>
 
+	<md-toolbar class="md-accent"  ng-controller="HomeController">
+		<div class="md-toolbar-tools" layout="row" layout-md="column" layout-align="center center" layout-wrap  id="nav">
+			<a href="#/about">
+				<md-button class="md-button" ng-class="{ active: isCurrentPath('/about') }">
+				About
+			</md-button>
+			</a>
+			<!-- <a href="#/getStarted">
+				<md-button class="md-button" ng-class="{ active: isCurrentPath('/getStarted') }">
+				Get Started
+			</md-button>
+			</a> -->
+			<a href="#/resources">
+				<md-button class="md-button" ng-class="{ active: isCurrentPath('/resources') }">
+				Resources
+			</md-button>
+			</a>
+			<a href="#/stories">
+				<md-button class="md-button" ng-class="{ active: isCurrentPath('/stories') }" >
+				Success Stories
+			</md-button>
+			</a>
+			<a href="#/videos">
+				<md-button class="md-button" ng-class="{ active: isCurrentPath('/videos') }">
+				Videos
+			</md-button>
+			</a>
+			<a href="#/contact">
+				<md-button class="md-button" ng-class="{ active: isCurrentPath('/contact') }">
+				Contact
+			</md-button>
+			</a>
 
-<div class="md-tall md-primary md-hue-1" id="mainPic">
-		<div layout="row" layout-align="center center" id="ctaCards">
-			<h3>
-				How To Send Your Kids To The Best, Most Expensive Colleges In America For Pennies On The Dollar!
-			</h3>
 		</div>
-		<div layout="column" flex="20" id="freeCtas">
-				<md-card>
-				<md-card-content class="md-button">
-					<a href="http://collegefundingremedies.com/wellsfargo/" target="_blank">
-						FREE Workshop
-					</a>		
-				</md-card-content>
-				</md-card>
+	</md-toolbar>
 
-				<md-card  ng-click="freeBook = !freeBook;" layout-wrap>
-				<md-card-content class="md-button">
-					<a href="">
-						FREE Book
-					</a>
-				</md-card-content>
-				</md-card>
-
-				<md-card  ng-click="freeBook = !freeBook;" layout-wrap>
-				<md-card-content class="md-button">
-					<a href="">
-						FREE Consultation
-					</a>
-				</md-card-content>
-				</md-card>
-		</div>
-
-		
-
-</div>
-
-
-
-<md-toolbar class="md-accent"  ng-controller="HomeController">
-<div class="md-toolbar-tools" layout="row" layout-md="column" layout-align="center center" layout-wrap  id="nav">
-	<a href="#/about">
-		<md-button class="md-button" ng-class="{ active: isCurrentPath('/about') }">
-		About
-	</md-button>
-</a>
-
-<!-- <a href="#/getStarted">
-	<md-button class="md-button" ng-class="{ active: isCurrentPath('/getStarted') }">
-	Get Started
-</md-button>
-</a> -->
-
-<a href="#/resources">
-	<md-button class="md-button" ng-class="{ active: isCurrentPath('/resources') }">
-	Resources
-</md-button>
-</a>
-
-<a href="#/stories">
-	<md-button class="md-button" ng-class="{ active: isCurrentPath('/stories') }" >
-	Success Stories
-</md-button>
-</a>
-
-<a href="#/videos">
-	<md-button class="md-button" ng-class="{ active: isCurrentPath('/videos') }">
-	Videos
-</md-button>
-</a>
-
-<a href="#/contact">
-	<md-button class="md-button" ng-class="{ active: isCurrentPath('/contact') }">
-	Contact
-</md-button>
-</a>
-
-
-</div>
-</md-toolbar>
 </md-content>
 
+<!-- TOGGLED CARD FOR FREEBOOK SIGNUP -->
+	<md-card ng-hide="!freeBook" flex="30" layout-padding layout="row" layout-md="column" layout-wrap id="signUp" class="animated fadeInRight">
+		<md-card-content>
+			<h4>Sign Up</h4>
+			<md-input-container>
+			<label>
+				First Name
+			</label>
+			<input  type="text">
+			</md-input-container>
 
-<md-card ng-hide="!freeBook" flex="30" layout-padding layout="row" layout-md="column" layout-wrap id="signUp" class="animated fadeInRight">
-<md-card-content >
-<h4>Sign Up</h4>
-<md-input-container>
-<label>
-	First Name
-</label>
-<input  type="text">
-</md-input-container>
+			<md-input-container>
+			<label>
+				Email
+			</label>
+			<input  type="email">
+			</md-input-container>
+			<md-button class="md-button">
+			SUBMIT FOR FREE BOOK
+			</md-button>
+		</md-card-content>
+	</md-card>
 
-<md-input-container>
-<label>
-	Email
-</label>
-<input  type="email">
-</md-input-container>
-<md-button class="md-button">
-SUBMIT FOR FREE BOOK
-</md-button>
-</md-card-content>
-</md-card>
+
 
 
 <ui-view></ui-view>

@@ -15,6 +15,7 @@ body, html {
 	}
 }
 
+
 //==========================NAVIGATION==========================================
 #nav {
 	box-shadow: 1px 2px 9px #777;
@@ -45,6 +46,21 @@ body, html {
 	border-bottom: 3px solid $standard-color; 
 }
 
+//==========================FOOTER==========================================
+
+footer {
+	width: 100%;
+	text-align: center;
+	color: $standard-color;
+	background-color: $nonStandout-color;
+	height: 50px;
+	padding: auto;
+	bottom: 0;
+	p {
+		font-size: .9em;
+	}
+}
+
 /*==========================WELCOME HEADER==================================================================================*/
 
 #ctaCards {
@@ -64,7 +80,7 @@ body, html {
 /*==========================HOME PAGE==================================================================================*/
 
 #ready {
-	margin-top:3em;
+	margin-top:4em;
 	margin-bottom:3em;
 	text-align: center;
 	h3 {
@@ -120,7 +136,7 @@ body, html {
 #deadlines {
 	margin-top: 1.7em;
 	padding-top: 4em;
-	padding-bottom: 4em;
+	padding-bottom: 6em;
 	background: $primary-color;
     background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, #237a2b, #5ba63d, #237a2b); /* For Opera 11.1 to 12.0 */
@@ -128,8 +144,20 @@ body, html {
     background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b); /* Standard syntax (must be last) */
     h2 {
     	color:$nonStandout-color;
-    	margin-bottom: 3em;
+    	margin-bottom: 3.6em;
     }
+}
+
+#letterToParents {
+	color: $standard-color;
+	margin: auto;
+	div {
+		padding: 1em 2em;
+		margin: 2em auto;
+	}
+	h2 {
+		text-align: center;
+	}
 }
 
 /*==========================SEPARATOR STYLING==================================================================================*/
