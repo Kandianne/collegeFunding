@@ -64,24 +64,23 @@ body, html {
 /*==========================HOME PAGE==================================================================================*/
 
 #ready {
-	margin-top:3%;
+	margin-top:3em;
+	margin-bottom:3em;
 	text-align: center;
 	h3 {
 	color: $standard-color;
-	font-size: 2.6em;
-	/*text-shadow: 1px 1px 3px #000;*/
-	/*font-weight: bold;*/
+	font-size: 2em;
 	}
 	 i {
-	color: $primary-color;
+	color: $standard-color;
 	font-size: 4em;
 	margin: auto .3em;
-	/*text-shadow: 1px 2px 3px #244717;*/
 	}
 }
 
 #threeMainCtas {
 	margin: auto;
+	margin-bottom: 3.7em;
 	text-align: center;
 	height: 300px;
 	div {
@@ -104,9 +103,9 @@ body, html {
 		margin: auto;
 	}
 	i {
-		font-size: 3.9em;
+		font-size: 3em;
 		color: $primary-color;
-		margin-top: .6em;
+		margin-top: .3em;
 	}
 	a{
 		color: $standard-color;
@@ -118,6 +117,20 @@ body, html {
 	}
 }
 
+#deadlines {
+	margin-top: 1.7em;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	background: $primary-color;
+    background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #237a2b, #5ba63d, #237a2b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b); /* Standard syntax (must be last) */
+    h2 {
+    	color:$nonStandout-color;
+    	margin-bottom: 3em;
+    }
+}
 
 /*==========================SEPARATOR STYLING==================================================================================*/
 
@@ -138,16 +151,11 @@ body, html {
 
 
 //==============SOME MEDIA QUERIES==============================
-@media only screen and (min-width : 300px) and (max-width : 960px) {
 
-   #freeCtas {
-   	font-size: red;
-   }
+// @media only screen and (min-width : 300px) and (max-width : 1000px)
+// {
+// 	#money {
+// 		color: red;
+// 	}
 
-}
-
-
-//==============SOME MEDIA QUERIES==============================
-#testimonials {
-
-}
+// }
