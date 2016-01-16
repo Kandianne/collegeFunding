@@ -9,6 +9,7 @@ body, html {
 	color: $primary-color;
 	height: 100%;
 	width: 100%;
+	font-family: 'Merriweather Sans', sans-serif;
 	a {
 		text-decoration: none;
 	}
@@ -84,8 +85,8 @@ body, html {
 	text-align: center;
 	height: 300px;
 	div {
-		box-shadow: #777 1px 2px 13px;
-		border: $primary-color solid 1px;
+		// box-shadow: #777 1px 2px 13px;
+		// border: $primary-color solid 1px;
 		color: $standard-color;
 		// 	background: -webkit-radial-gradient(circle, #5ba63d, #237a2b, #5ba63d); /* For Safari 5.1 to 6.0 */
 	 	//    background: -o-radial-gradient(circle, #5ba63d, #237a2b, #5ba63d); /* For Opera 11.1 to 12.0 */
@@ -96,6 +97,7 @@ body, html {
 	}
 	h5 {
 		color: $primary-color;
+		font-weight: bold;
 	}
 	p {
 		width: 79%;
@@ -103,6 +105,8 @@ body, html {
 	}
 	i {
 		font-size: 3.9em;
+		color: $primary-color;
+		margin-top: .6em;
 	}
 	a{
 		color: $standard-color;
@@ -133,11 +137,17 @@ body, html {
 }
 
 
-//==============SOME MERDIA Q==============================
+//==============SOME MEDIA QUERIES==============================
 @media only screen and (min-width : 300px) and (max-width : 960px) {
 
    #freeCtas {
    	font-size: red;
    }
+
+}
+
+
+//==============SOME MEDIA QUERIES==============================
+#testimonials {
 
 }

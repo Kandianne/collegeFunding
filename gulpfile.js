@@ -9,16 +9,16 @@ var webserver = require('gulp-webserver');
 gulp.task('browserSync', function() {
   browserSync({
     server: {
-      baseDir: 'app'
+      baseDir: 'collegeFunding'
     }
   })
 })
 
 //SASS SYNC
 gulp.task('sass', function() {
-  return gulp.src('app/public/compass/sass/scss/**/*.scss') // Gets all files ending with .scss in app/scss and children dirs
+  return gulp.src('collegeFunding/public/compass/sass/scss/**/*.scss') // Gets all files ending with .scss in app/scss and children dirs
     .pipe(sass()) // Passes it through a gulp-sass
-    .pipe(gulp.dest('app/public/css')) // Outputs it in the css folder
+    .pipe(gulp.dest('collegeFunding/public/css')) // Outputs it in the css folder
     .pipe(browserSync.reload({ // Reloading with Browser Sync
       stream: true
     }));
@@ -26,18 +26,31 @@ gulp.task('sass', function() {
 
 //WHAT FOLDERS TO RELOAD
 gulp.task('watch', ['browserSync', 'sass'], function() {
-  gulp.watch('app/public/compass/sass/scss/**/*.scss', ['sass']);
-  gulp.watch('app/public/templates/*.html', browserSync.reload);
-  gulp.watch('app/public/javascript/**/*.js', browserSync.reload);
+  gulp.watch('collegeFunding/public/compass/sass/scss/**/*.scss', ['sass']);
+  gulp.watch('collegeFunding/public/templates/*.html', browserSync.reload);
+  gulp.watch('collegeFunding/public/javascript/**/*.js', browserSync.reload);
 })
 
 
 //ALLOWING to run a local webserver with LiveReload 
 gulp.task('webserver', function() {
-  gulp.src('app')
+  gulp.src('collegeFunding')
     .pipe(webserver({
       livereload: true,
       directoryListing: true,
       open: true
     }));
+});
+
+gulp.task('express', function() {
+  var express = require('express');
+  var app = express();
+  app.use(require('connect-livereload')({port: 3000}));
+  app.use(express.static(__dirname));
+  app.listen(3000, '0.0.0.0');
+});
+
+//NEED DEFAULT TASK
+gulp.task('default', ['express', 'watch'], function() {
+  console.log("this is default");
 });
