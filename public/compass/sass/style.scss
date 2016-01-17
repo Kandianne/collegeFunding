@@ -5,6 +5,12 @@ $accentStandOutTwo-color: #f6d727;
 $standard-color: #000;
 $nonStandout-color: #fff;
 
+//==================GRADIENT BACKGROUND VARIABLES===============================
+$safari-gradient: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b);
+$opera-gradient: -o-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
+$firefox-gradient: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
+$default-gradient: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
+
 body, html {
 	color: $primary-color;
 	height: 100%;
@@ -20,10 +26,10 @@ body, html {
 #nav {
 	box-shadow: 1px 2px 9px #777;
 	background: $primary-color;
-    background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #237a2b, #5ba63d, #237a2b); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b); /* Standard syntax (must be last) */
+    background: $safari-gradient;
+    background: $opera-gradient;
+    background: $firefox-gradient;
+    background: $default-gradient;
 	.md-button {
 		color: $nonStandout-color;
 	}
@@ -158,6 +164,18 @@ footer {
 	h2 {
 		text-align: center;
 	}
+}
+
+/*==========================ABOUT PAGE==================================================================================*/
+
+#services {
+	margin:auto;
+	color: #fff;
+	background: $primary-color;
+    background: $safari-gradient;
+    background: $opera-gradient;
+    background: $firefox-gradient;
+    background: $default-gradient;
 }
 
 /*==========================SEPARATOR STYLING==================================================================================*/

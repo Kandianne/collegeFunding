@@ -1,56 +1,52 @@
-/* line 8, ../compass/sass/style.scss */
+/* line 14, ../compass/sass/style.scss */
 body, html {
   color: #237a2b;
   height: 100%;
   width: 100%;
   font-family: 'Merriweather Sans', sans-serif;
 }
-/* line 13, ../compass/sass/style.scss */
+/* line 19, ../compass/sass/style.scss */
 body a, html a {
   text-decoration: none;
 }
 
-/* line 20, ../compass/sass/style.scss */
+/* line 26, ../compass/sass/style.scss */
 #nav {
   box-shadow: 1px 2px 9px #777;
   background: #237a2b;
   background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b);
-  /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
-  /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
-  /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
-  /* Standard syntax (must be last) */
 }
-/* line 27, ../compass/sass/style.scss */
+/* line 33, ../compass/sass/style.scss */
 #nav .md-button {
   color: #fff;
 }
-/* line 30, ../compass/sass/style.scss */
+/* line 36, ../compass/sass/style.scss */
 #nav .md-button:hover {
   border-bottom: 3px solid #000;
 }
 
-/* line 35, ../compass/sass/style.scss */
+/* line 41, ../compass/sass/style.scss */
 .md-toolbar-tools {
   background-color: #237a2b;
 }
-/* line 37, ../compass/sass/style.scss */
+/* line 43, ../compass/sass/style.scss */
 .md-toolbar-tools i {
   color: #5ba63d;
 }
-/* line 40, ../compass/sass/style.scss */
+/* line 46, ../compass/sass/style.scss */
 .md-toolbar-tools div .md-button {
   color: #5ba63d;
 }
 
-/* line 45, ../compass/sass/style.scss */
+/* line 51, ../compass/sass/style.scss */
 .active {
   border-bottom: 3px solid #000;
 }
 
-/* line 51, ../compass/sass/style.scss */
+/* line 57, ../compass/sass/style.scss */
 footer {
   width: 100%;
   text-align: center;
@@ -60,89 +56,89 @@ footer {
   padding: auto;
   bottom: 0;
 }
-/* line 59, ../compass/sass/style.scss */
+/* line 65, ../compass/sass/style.scss */
 footer p {
   font-size: .9em;
 }
 
 /*==========================WELCOME HEADER==================================================================================*/
-/* line 66, ../compass/sass/style.scss */
+/* line 72, ../compass/sass/style.scss */
 #ctaCards {
   font-size: 1em;
   text-align: center;
   color: #244717;
 }
 
-/* line 72, ../compass/sass/style.scss */
+/* line 78, ../compass/sass/style.scss */
 #freeCtas {
   padding-top: 6%;
   position: absolute;
   left: -6px;
 }
-/* line 76, ../compass/sass/style.scss */
+/* line 82, ../compass/sass/style.scss */
 #freeCtas a {
   color: #000;
 }
 
 /*==========================HOME PAGE==================================================================================*/
-/* line 82, ../compass/sass/style.scss */
+/* line 88, ../compass/sass/style.scss */
 #ready {
   margin-top: 4em;
   margin-bottom: 3em;
   text-align: center;
 }
-/* line 86, ../compass/sass/style.scss */
+/* line 92, ../compass/sass/style.scss */
 #ready h3 {
   color: #000;
   font-size: 2em;
 }
-/* line 90, ../compass/sass/style.scss */
+/* line 96, ../compass/sass/style.scss */
 #ready i {
   color: #000;
   font-size: 4em;
   margin: auto .3em;
 }
 
-/* line 97, ../compass/sass/style.scss */
+/* line 103, ../compass/sass/style.scss */
 #threeMainCtas {
   margin: auto;
   margin-bottom: 3.7em;
   text-align: center;
   height: 300px;
 }
-/* line 102, ../compass/sass/style.scss */
+/* line 108, ../compass/sass/style.scss */
 #threeMainCtas div {
   color: #000;
   margin: auto;
   padding: auto;
 }
-/* line 113, ../compass/sass/style.scss */
+/* line 119, ../compass/sass/style.scss */
 #threeMainCtas h5 {
   color: #237a2b;
   font-weight: bold;
 }
-/* line 117, ../compass/sass/style.scss */
+/* line 123, ../compass/sass/style.scss */
 #threeMainCtas p {
   width: 79%;
   margin: auto;
 }
-/* line 121, ../compass/sass/style.scss */
+/* line 127, ../compass/sass/style.scss */
 #threeMainCtas i {
   font-size: 3em;
   color: #237a2b;
   margin-top: .3em;
 }
-/* line 126, ../compass/sass/style.scss */
+/* line 132, ../compass/sass/style.scss */
 #threeMainCtas a {
   color: #000;
   padding: auto 1.6em;
 }
-/* line 130, ../compass/sass/style.scss */
+/* line 136, ../compass/sass/style.scss */
 #threeMainCtas .md-button {
   color: #000;
 }
 
-/* line 136, ../compass/sass/style.scss */
+/* line 142, ../compass/sass/style.scss */
 #deadlines {
   margin-top: 1.7em;
   padding-top: 4em;
@@ -157,41 +153,53 @@ footer p {
   background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
   /* Standard syntax (must be last) */
 }
-/* line 145, ../compass/sass/style.scss */
+/* line 151, ../compass/sass/style.scss */
 #deadlines h2 {
   color: #fff;
   margin-bottom: 3.6em;
 }
 
-/* line 151, ../compass/sass/style.scss */
+/* line 157, ../compass/sass/style.scss */
 #letterToParents {
   color: #000;
   margin: auto;
 }
-/* line 154, ../compass/sass/style.scss */
+/* line 160, ../compass/sass/style.scss */
 #letterToParents div {
   padding: 1em 2em;
   margin: 2em auto;
 }
-/* line 158, ../compass/sass/style.scss */
+/* line 164, ../compass/sass/style.scss */
 #letterToParents h2 {
   text-align: center;
 }
 
+/*==========================ABOUT PAGE==================================================================================*/
+/* line 171, ../compass/sass/style.scss */
+#services {
+  margin: auto;
+  color: #fff;
+  background: #237a2b;
+  background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b);
+  background: -o-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
+  background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
+  background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
+}
+
 /*==========================SEPARATOR STYLING==================================================================================*/
-/* line 165, ../compass/sass/style.scss */
+/* line 183, ../compass/sass/style.scss */
 #bigHalfCircle {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 170, ../compass/sass/style.scss */
+/* line 188, ../compass/sass/style.scss */
 #trianglePath1 {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 175, ../compass/sass/style.scss */
+/* line 193, ../compass/sass/style.scss */
 #bigTriangleShadow {
   fill: #fff;
   stroke: #fff;
