@@ -11,6 +11,8 @@ $opera-gradient: -o-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
 $firefox-gradient: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
 $default-gradient: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
 
+//==================MAIN===============================
+
 body, html {
 	color: $primary-color;
 	height: 100%;
@@ -21,6 +23,10 @@ body, html {
 	}
 }
 
+md-input-container label {
+	color: $primary-color;
+	font-size: 1em;
+}
 
 //==========================NAVIGATION==========================================
 #nav {
@@ -199,6 +205,40 @@ footer {
 	}
 }
 
+/*==========================CONTACT PAGE==================================================================================*/
+
+
+.contact {
+	h3 {
+		margin: 2.3em auto;
+		padding: 2em auto;
+		color: $standard-color;
+	}
+	h4 {
+		color: $standard-color;
+		text-align: center;
+		margin: 2em auto;
+	}
+	p {
+		color: $standard-color;
+	}
+	.md-button {
+		display: block;
+		color: $standard-color;
+		margin: 1em auto;
+	}
+	i {
+		color: $primary-color;
+		font-size: 1.6em;
+	}
+}
+
+.social {
+	margin: 1.6em auto;
+	a {
+		color: $primary-color;
+	}
+}
 /*==========================SEPARATOR STYLING==================================================================================*/
 
 #bigHalfCircle {
