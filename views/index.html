@@ -78,6 +78,14 @@
 						</a>
 					</md-card-content>
 					</md-card>
+
+					<md-card  ng-click="freeBook = !freeBook;" layout-wrap>
+					<md-card-content class="md-button">
+						<a href="">
+							FREE Webinar
+						</a>
+					</md-card-content>
+					</md-card>
 			</div>
 	</div>
 
@@ -100,7 +108,7 @@
 			</a>
 			<a href="#/stories">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/stories') }" >
-				Success Stories
+				ScholarShip Successes
 			</md-button>
 			</a>
 			<a href="#/videos">
@@ -159,5 +167,6 @@
 <script src="/javascript/services/HomeFactory.js"></script>
 <!-- Controllers -->
 <script src="/javascript/controllers/HomeController.js"></script>
+<script src="/javascript/controllers/SuccessController.js"></script>
 </body>
 </html>
