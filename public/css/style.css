@@ -256,20 +256,29 @@ footer p {
   color: #237a2b;
 }
 
+/* line 243, ../compass/sass/style.scss */
+#rewards {
+  text-align: center;
+}
+/* line 245, ../compass/sass/style.scss */
+#rewards li {
+  list-style: none;
+}
+
 /*==========================SEPARATOR STYLING==================================================================================*/
-/* line 244, ../compass/sass/style.scss */
+/* line 251, ../compass/sass/style.scss */
 #bigHalfCircle {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 249, ../compass/sass/style.scss */
+/* line 256, ../compass/sass/style.scss */
 #trianglePath1 {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 254, ../compass/sass/style.scss */
+/* line 261, ../compass/sass/style.scss */
 #bigTriangleShadow {
   fill: #fff;
   stroke: #fff;

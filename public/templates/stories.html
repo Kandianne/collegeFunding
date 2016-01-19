@@ -1,14 +1,18 @@
-<div ng-controller="SuccessController as vm">
-	<table>
-		<tr>
-			<th>NAME OF COLLEGE</th>
-			<th>FINANCIAL AID OFFER (PER YEAR)</th>
-			<th>PROJECTED OVER 4 YEARS</th>
-		</tr>
-		<tr ng-repeat="s in vm.success">
-			<td>{{s.colleges}}</td>
-			<td>{{s.offers}}</td>
-			<td>{{s.projections}}</td>
-		</tr>
-	</table>
+<div ng-controller="SuccessController as vm" id="rewards">
+	<div layout>
+		<ul flex="33">
+		<p>NAME OF COLLEGE</p>
+		<li ng-repeat="c in vm.colleges">{{c}}</li>
+		</ul>
+		<ul flex="33">
+			<p>FINANCIAL AID OFFER (PER YEAR)</p>
+			<li ng-repeat="o in vm.offers">{{o}}</li>
+		</ul>
+		<ul flex="33">
+			<p>PROJECTED OVER 4 YEARS</p>
+			<li ng-repeat="p in vm.projections">{{p}}</li>
+		</ul>
+	</div>
+
+			
 </div>
