@@ -201,7 +201,7 @@ footer {
 	margin: 4em auto 3em auto;
 	color: $standard-color;
 	div {
-		margin: 1em;
+		margin: 3em;
 	}
 }
 
@@ -240,10 +240,19 @@ footer {
 	}
 }
 
+/*=========================SCHOLARSHIP SUCCESS PAGE============================================================================*/
+
 #rewards {
 	text-align: center;
+	color: $standard-color;
+	ul {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
 	li {
 		list-style: none;
+		padding: 1em;
+		border-top: solid thin $primary-color;
 	}
 }
 /*==========================SEPARATOR STYLING==================================================================================*/

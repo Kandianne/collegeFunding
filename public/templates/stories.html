@@ -6,11 +6,11 @@
 		</ul>
 		<ul flex="33">
 			<p>FINANCIAL AID OFFER (PER YEAR)</p>
-			<li ng-repeat="o in vm.offers">{{o}}</li>
+			<li ng-repeat="o in vm.offers track by $index">{{o}}</li>
 		</ul>
 		<ul flex="33">
 			<p>PROJECTED OVER 4 YEARS</p>
-			<li ng-repeat="p in vm.projections">{{p}}</li>
+			<li ng-repeat="p in vm.projections track by $index">{{p}}</li>
 		</ul>
 	</div>
 

@@ -215,7 +215,7 @@ footer p {
 }
 /* line 203, ../compass/sass/style.scss */
 #pulsingQuests div {
-  margin: 1em;
+  margin: 3em;
 }
 
 /*==========================CONTACT PAGE==================================================================================*/
@@ -256,29 +256,38 @@ footer p {
   color: #237a2b;
 }
 
-/* line 243, ../compass/sass/style.scss */
+/*=========================SCHOLARSHIP SUCCESS PAGE============================================================================*/
+/* line 245, ../compass/sass/style.scss */
 #rewards {
   text-align: center;
+  color: #000;
 }
-/* line 245, ../compass/sass/style.scss */
+/* line 248, ../compass/sass/style.scss */
+#rewards ul {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+/* line 252, ../compass/sass/style.scss */
 #rewards li {
   list-style: none;
+  padding: 1em;
+  border-top: solid thin #237a2b;
 }
 
 /*==========================SEPARATOR STYLING==================================================================================*/
-/* line 251, ../compass/sass/style.scss */
+/* line 260, ../compass/sass/style.scss */
 #bigHalfCircle {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 256, ../compass/sass/style.scss */
+/* line 265, ../compass/sass/style.scss */
 #trianglePath1 {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 261, ../compass/sass/style.scss */
+/* line 270, ../compass/sass/style.scss */
 #bigTriangleShadow {
   fill: #fff;
   stroke: #fff;
