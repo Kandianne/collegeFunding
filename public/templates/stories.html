@@ -1,16 +1,22 @@
 <div ng-controller="SuccessController as vm" id="rewards">
+	
+	<h2>See Rewards Given</h2>
 	<div layout>
-		<ul flex="33">
-		<p>NAME OF COLLEGE</p>
+		<ul flex="50">
+		<p>NAME OF COLLEGE or UNIVERSITY</p>
 		<li ng-repeat="c in vm.colleges">{{c}}</li>
 		</ul>
-		<ul flex="33">
-			<p>FINANCIAL AID OFFER (PER YEAR)</p>
-			<li ng-repeat="o in vm.offers track by $index">{{o}}</li>
+		<ul flex="25">
+			<p>FINANCIAL AID OFFER
+				<br>
+				<span style="font-size:.6em;">(PER YEAR)</span></p>
+			<li style="text-align: center;" ng-repeat="o in vm.offers track by $index">{{o}}</li>
 		</ul>
-		<ul flex="33">
-			<p>PROJECTED OVER 4 YEARS</p>
-			<li ng-repeat="p in vm.projections track by $index">{{p}}</li>
+		<ul flex="25">
+			<p>PROJECTED OFFER
+				<br>
+				<span style="font-size:.6em;">(OVER 4 YEARS)</span></p>
+			<li style="text-align: center;" ng-repeat="p in vm.projections track by $index">{{p}}</li>
 		</ul>
 	</div>
 

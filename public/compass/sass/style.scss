@@ -243,18 +243,30 @@ footer {
 /*=========================SCHOLARSHIP SUCCESS PAGE============================================================================*/
 
 #rewards {
-	text-align: center;
 	color: $standard-color;
-	ul {
-		margin-left: -20px;
-		margin-right: -20px;
+	h2 {
+		text-align: center;
+		margin: 2em auto;
 	}
 	li {
 		list-style: none;
 		padding: 1em;
-		border-top: solid thin $primary-color;
+		border-top: solid thin $secondary-color;
+	}
+	p {
+		height: 3em;
+		margin-bottom: .3em;
+		font-weight: bold;
+		color: $primary-color;
+		text-align: center;
+	}
+	div {
+		margin-left: 15%;
+		margin-right: 15%;
+		border: solid thick $primary-color;
 	}
 }
+
 /*==========================SEPARATOR STYLING==================================================================================*/
 
 #bigHalfCircle {

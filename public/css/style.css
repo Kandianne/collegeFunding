@@ -259,35 +259,48 @@ footer p {
 /*=========================SCHOLARSHIP SUCCESS PAGE============================================================================*/
 /* line 245, ../compass/sass/style.scss */
 #rewards {
-  text-align: center;
   color: #000;
 }
-/* line 248, ../compass/sass/style.scss */
-#rewards ul {
-  margin-left: -20px;
-  margin-right: -20px;
+/* line 247, ../compass/sass/style.scss */
+#rewards h2 {
+  text-align: center;
+  margin: 2em auto;
 }
-/* line 252, ../compass/sass/style.scss */
+/* line 251, ../compass/sass/style.scss */
 #rewards li {
   list-style: none;
   padding: 1em;
-  border-top: solid thin #237a2b;
+  border-top: solid thin #5ba63d;
+}
+/* line 256, ../compass/sass/style.scss */
+#rewards p {
+  height: 3em;
+  margin-bottom: .3em;
+  font-weight: bold;
+  color: #237a2b;
+  text-align: center;
+}
+/* line 263, ../compass/sass/style.scss */
+#rewards div {
+  margin-left: 15%;
+  margin-right: 15%;
+  border: solid thick #237a2b;
 }
 
 /*==========================SEPARATOR STYLING==================================================================================*/
-/* line 260, ../compass/sass/style.scss */
+/* line 272, ../compass/sass/style.scss */
 #bigHalfCircle {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 265, ../compass/sass/style.scss */
+/* line 277, ../compass/sass/style.scss */
 #trianglePath1 {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 270, ../compass/sass/style.scss */
+/* line 282, ../compass/sass/style.scss */
 #bigTriangleShadow {
   fill: #fff;
   stroke: #fff;
