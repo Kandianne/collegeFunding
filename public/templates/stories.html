@@ -1,10 +1,16 @@
 <div ng-controller="SuccessController as vm" id="rewards">
 	
 	<h2>See Rewards Given</h2>
+		<md-input-container>
+			<label>
+				<i class="fa fa-search"></i>&nbsp;&nbsp;&nbsp;Search College or University here...
+			</label>
+			<input  type="text" ng-model="search">
+		</md-input-container>
 	<div layout>
 		<ul flex="50">
 		<p>NAME OF COLLEGE or UNIVERSITY</p>
-		<li ng-repeat="c in vm.colleges">{{c}}</li>
+		<li ng-repeat="c in vm.colleges | filter: search"  >{{c}}</li>
 		</ul>
 		<ul flex="25">
 			<p>FINANCIAL AID OFFER

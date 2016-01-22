@@ -91,16 +91,16 @@
 
 	<md-toolbar class="md-accent"  ng-controller="HomeController">
 		<div class="md-toolbar-tools" layout="row" layout-md="column" layout-align="center center" layout-wrap  id="nav">
+			<a href="#/home">
+				<md-button class="md-button" ng-class="{ active: isCurrentPath('/home') }">
+				Home
+			</md-button>
+			</a>
 			<a href="#/about">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/about') }">
 				About
 			</md-button>
 			</a>
-			<!-- <a href="#/getStarted">
-				<md-button class="md-button" ng-class="{ active: isCurrentPath('/getStarted') }">
-				Get Started
-			</md-button>
-			</a> -->
 			<a href="#/resources">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/resources') }">
 				Resources
@@ -111,10 +111,10 @@
 				ScholarShip Successes
 			</md-button>
 			</a>
-			<a href="#/videos">
+<!-- 			<a href="#/videos">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/videos') }">
 				Videos
-			</md-button>
+			</md-button> -->
 			</a>
 			<a href="#/contact">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/contact') }">

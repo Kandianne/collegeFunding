@@ -183,9 +183,19 @@ footer {
     background: $opera-gradient;
     background: $firefox-gradient;
     background: $default-gradient;
-    h2, h3 {
-    	text-align: center;
+    text-align: center;
+    i {
+    	color: $standard-color;
+    	font-size: 2.6em;
+    	margin: .6em auto;
     }
+    div {
+    	margin: 2em auto;
+    }
+    p {
+		width: 60%;
+		margin: auto;
+	}
 }
 
 #collegeQuestions {
@@ -197,6 +207,13 @@ footer {
 	}
 }
 
+#welcomeVid {
+	margin: auto auto 6em auto;
+	iframe {
+		border: thick solid $standard-color;
+	}
+}
+
 #pulsingQuests {
 	margin: 4em auto 3em auto;
 	color: $standard-color;
@@ -205,7 +222,7 @@ footer {
 	}
 }
 
-/*==========================CONTACT PAGE==================================================================================*/
+/*==============================CONTACT PAGE==================================================================================*/
 
 
 .contact {
@@ -248,10 +265,13 @@ footer {
 		text-align: center;
 		margin: 2em auto;
 	}
+	md-input-container {
+		margin:auto;
+		width: 20%;
+	}
 	li {
 		list-style: none;
 		padding: 1em;
-		border-top: solid thin $secondary-color;
 	}
 	p {
 		height: 3em;
@@ -261,12 +281,25 @@ footer {
 		text-align: center;
 	}
 	div {
-		margin-left: 15%;
-		margin-right: 15%;
+		margin-left: 9%;
+		margin-right: 9%;
 		border: solid thick $primary-color;
 		height: 100%;
 	}
 }
+
+/*=========================VIDEOS============================================================================*/
+ 
+ #videos {
+ 	iframe {
+ 		margin: 2em auto;
+ 	}
+ 	h2 {
+ 		text-align: center;
+		margin: 3em auto 2em auto;
+		color: $standard-color;
+ 	}
+ }
 
 /*==========================SEPARATOR STYLING==================================================================================*/
 
