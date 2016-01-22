@@ -193,6 +193,7 @@ footer {
     	margin: 2em auto;
     }
     p {
+    	color: $standard-color;
 		width: 60%;
 		margin: auto;
 	}
@@ -257,9 +258,33 @@ footer {
 	}
 }
 
+/*=========================RESOURCES PAGE============================================================================*/
+
+#resources {
+	h2 {
+		text-align: center;
+		margin: 2em auto;
+		color: $standard-color;
+	}
+	.primaryTile {
+		background: $primary-color;
+		color: $nonStandout-color;
+	}
+	.secondaryTile {
+		background: $secondary-color;
+		color: $standard-color;
+	}
+	.standardTile {
+		border: thick solid $standard-color;
+		background: $nonStandout-color;
+		color: $standard-color;
+	}
+}
+
 /*=========================SCHOLARSHIP SUCCESS PAGE============================================================================*/
 
 #rewards {
+	margin: auto 3em;
 	color: $standard-color;
 	h2 {
 		text-align: center;
@@ -267,7 +292,13 @@ footer {
 	}
 	md-input-container {
 		margin:auto;
-		width: 20%;
+		width: 40%;
+	}
+	label {
+		text-align: center;
+	}
+	ul {
+		margin: auto;
 	}
 	li {
 		list-style: none;

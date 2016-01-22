@@ -8,7 +8,7 @@
 			<input  type="text" ng-model="search">
 		</md-input-container>
 	<div layout>
-		<ul flex="50">
+		<ul flex="25">
 		<p>NAME OF COLLEGE or UNIVERSITY</p>
 		<li ng-repeat="c in vm.colleges | filter: search"  >{{c}}</li>
 		</ul>
