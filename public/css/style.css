@@ -285,22 +285,23 @@ footer p {
   margin-left: 15%;
   margin-right: 15%;
   border: solid thick #237a2b;
+  height: 100%;
 }
 
 /*==========================SEPARATOR STYLING==================================================================================*/
-/* line 272, ../compass/sass/style.scss */
+/* line 273, ../compass/sass/style.scss */
 #bigHalfCircle {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 277, ../compass/sass/style.scss */
+/* line 278, ../compass/sass/style.scss */
 #trianglePath1 {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 282, ../compass/sass/style.scss */
+/* line 283, ../compass/sass/style.scss */
 #bigTriangleShadow {
   fill: #fff;
   stroke: #fff;
