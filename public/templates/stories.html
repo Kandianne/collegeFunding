@@ -1,31 +1,28 @@
 
 <div ng-controller="SuccessController as vm" id="rewards">
 
-	<h2>See Rewards Given</h2>
-		<md-input-container>
+	<h2>View Over {{vm.awards}} Rewards Given</h2>
+	<md-input-container>
 			<label>
 				<i class="fa fa-search"></i>&nbsp;&nbsp;&nbsp;Search College or University here...
 			</label>
-			<input  type="text" ng-model="search">
-		</md-input-container>
-	<div layout>
-		<ul flex="25">
-		<p>NAME OF COLLEGE or UNIVERSITY</p>
-		<li ng-repeat="c in vm.colleges | filter: search"  >{{c}}</li>
-		</ul>
-		<ul flex="25">
-			<p>FINANCIAL AID OFFER
-				<br>
-				<span style="font-size:.6em;">(PER YEAR)</span></p>
-			<li style="text-align: center;" ng-repeat="o in vm.offers track by $index">{{o}}</li>
-		</ul>
-		<ul flex="25">
-			<p>PROJECTED OFFER
-				<br>
-				<span style="font-size:.6em;">(OVER 4 YEARS)</span></p>
-			<li style="text-align: center;" ng-repeat="p in vm.projections track by $index">{{p}}</li>
-		</ul>
-	</div>
+			<input  type="text" ng-model="search.colleges">
+	</md-input-container>
 
-			
+	<div id="successBox">
+		<div layout>
+			<h5 flex="33">COLLEGE/UNIVERSITY</h5>
+			<h5 flex>FINANCIAL AID OFFER<br>(PER YEAR)</h5>
+			<h5 flex>PROJECTED OFFER<br>(OVER 4 YEARS)</h5>
+		</div>
+		<div layout ng-repeat="s in vm.successes | filter: search">
+			<p id="collegeNames" flex="33">{{s.colleges}}</p>
+			<p flex>{{s.offers}}</p>
+			<p flex>{{s.projections}}</p>
+		</div>
+	</div>
+				
 </div>
+<footer>
+    <p>&copy; Copyright 2014 College Funding Remedies. Website Kreated by Kandianne Pierre.</p>
+</footer>
