@@ -29,7 +29,7 @@ md-input-container label {
 }
 
 //==========================NAVIGATION==========================================
-#nav {
+#nav, #fixSmallNav {
 	box-shadow: 1px 2px 9px #777;
 	background: $primary-color;
     background: $safari-gradient;
@@ -42,6 +42,11 @@ md-input-container label {
 	.md-button:hover {
 		border-bottom: 3px solid $standard-color;
 	}
+}
+
+#fixSmallNav {
+	position: fixed;
+	top: 0;
 }
 
 .md-toolbar-tools {
@@ -57,6 +62,14 @@ md-input-container label {
 .active {
 	border-bottom: 3px solid $standard-color; 
 }
+
+#mainPic {
+	height: 460px;
+	background: url("http://i.huffpost.com/gen/3398570/images/o-HAPPY-COLLEGE-STUDENTS-facebook.jpg") center center no-repeat;
+	background-size: cover;
+}
+
+
 
 //==========================FOOTER==========================================
 

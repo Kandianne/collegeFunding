@@ -14,3 +14,16 @@
 		};
 	}
 })();
+
+window.onscroll = function() {changeNav(); console.log("isthis running?")}; //Running func to changenav when you scroll down
+
+changeNav = function(){
+	if(document.body.scrollTop > 524 || document.documentElement.scrollTop > 524){
+		document.getElementById("nav").id = "fixSmallNav";
+	} else {
+		document.getElementById("fixSmallNav").id = "nav";
+	}
+}
+
+
+console.log(document.body);
