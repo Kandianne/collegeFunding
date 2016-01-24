@@ -20,7 +20,7 @@ window.onscroll = function() {changeNav(); console.log("isthis running?")}; //Ru
 changeNav = function(){
 	if(document.body.scrollTop > 524 || document.documentElement.scrollTop > 524){
 		document.getElementById("nav").id = "fixSmallNav";
-	} else {
+	} else if (document.body.scrollTop < 524 || document.documentElement.scrollTop < 524) {
 		document.getElementById("fixSmallNav").id = "nav";
 	}
 }

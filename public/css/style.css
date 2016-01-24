@@ -264,51 +264,50 @@ footer p {
 .contact h4 {
   color: #000;
   text-align: center;
-  margin: 2em auto;
 }
-/* line 253, ../compass/sass/style.scss */
+/* line 252, ../compass/sass/style.scss */
 .contact p {
   color: #000;
 }
-/* line 256, ../compass/sass/style.scss */
+/* line 255, ../compass/sass/style.scss */
 .contact .md-button {
   display: block;
   color: #000;
-  margin: 1em auto;
+  margin: auto;
 }
-/* line 261, ../compass/sass/style.scss */
+/* line 260, ../compass/sass/style.scss */
 .contact i {
   color: #237a2b;
   font-size: 1.6em;
 }
 
-/* line 267, ../compass/sass/style.scss */
+/* line 266, ../compass/sass/style.scss */
 .social {
   margin: 1.6em auto;
 }
-/* line 269, ../compass/sass/style.scss */
+/* line 268, ../compass/sass/style.scss */
 .social a {
   color: #237a2b;
 }
 
 /*=========================RESOURCES PAGE============================================================================*/
-/* line 277, ../compass/sass/style.scss */
+/* line 276, ../compass/sass/style.scss */
 #resources h2 {
   text-align: center;
   margin: 2em auto;
   color: #000;
 }
-/* line 282, ../compass/sass/style.scss */
+/* line 281, ../compass/sass/style.scss */
 #resources .primaryTile {
   background: #237a2b;
   color: #fff;
 }
-/* line 286, ../compass/sass/style.scss */
+/* line 285, ../compass/sass/style.scss */
 #resources .secondaryTile {
   background: #5ba63d;
   color: #000;
 }
-/* line 290, ../compass/sass/style.scss */
+/* line 289, ../compass/sass/style.scss */
 #resources .standardTile {
   border: thick solid #000;
   background: #fff;
@@ -316,40 +315,40 @@ footer p {
 }
 
 /*=========================SCHOLARSHIP SUCCESS PAGE============================================================================*/
-/* line 299, ../compass/sass/style.scss */
+/* line 298, ../compass/sass/style.scss */
 #rewards {
   margin: auto 3em;
   color: #000;
 }
-/* line 302, ../compass/sass/style.scss */
+/* line 301, ../compass/sass/style.scss */
 #rewards h2 {
   text-align: center;
   margin: 2em auto;
 }
-/* line 306, ../compass/sass/style.scss */
+/* line 305, ../compass/sass/style.scss */
 #rewards h5 {
   text-align: center;
   color: #237a2b;
 }
-/* line 310, ../compass/sass/style.scss */
+/* line 309, ../compass/sass/style.scss */
 #rewards md-input-container {
   margin: auto;
   width: 40%;
 }
-/* line 314, ../compass/sass/style.scss */
+/* line 313, ../compass/sass/style.scss */
 #rewards label {
   text-align: center;
 }
-/* line 317, ../compass/sass/style.scss */
+/* line 316, ../compass/sass/style.scss */
 #rewards ul {
   margin: auto;
 }
-/* line 320, ../compass/sass/style.scss */
+/* line 319, ../compass/sass/style.scss */
 #rewards li {
   list-style: none;
   padding: 1em;
 }
-/* line 324, ../compass/sass/style.scss */
+/* line 323, ../compass/sass/style.scss */
 #rewards p {
   height: 4em;
   margin-bottom: .3em;
@@ -358,18 +357,18 @@ footer p {
   border-bottom: thin solid #237a2b;
 }
 
-/* line 333, ../compass/sass/style.scss */
+/* line 332, ../compass/sass/style.scss */
 #successBox {
   border: thin solid #237a2b;
   padding: 3em;
 }
 
 /*=========================VIDEOS============================================================================*/
-/* line 342, ../compass/sass/style.scss */
+/* line 341, ../compass/sass/style.scss */
 #videos iframe {
   margin: 2em auto;
 }
-/* line 345, ../compass/sass/style.scss */
+/* line 344, ../compass/sass/style.scss */
 #videos h2 {
   text-align: center;
   margin: 3em auto 2em auto;
@@ -377,19 +376,19 @@ footer p {
 }
 
 /*==========================SEPARATOR STYLING==================================================================================*/
-/* line 354, ../compass/sass/style.scss */
+/* line 353, ../compass/sass/style.scss */
 #bigHalfCircle {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 359, ../compass/sass/style.scss */
+/* line 358, ../compass/sass/style.scss */
 #trianglePath1 {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 364, ../compass/sass/style.scss */
+/* line 363, ../compass/sass/style.scss */
 #bigTriangleShadow {
   fill: #fff;
   stroke: #fff;

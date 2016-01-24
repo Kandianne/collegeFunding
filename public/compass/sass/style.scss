@@ -248,7 +248,6 @@ footer {
 	h4 {
 		color: $standard-color;
 		text-align: center;
-		margin: 2em auto;
 	}
 	p {
 		color: $standard-color;
@@ -256,7 +255,7 @@ footer {
 	.md-button {
 		display: block;
 		color: $standard-color;
-		margin: 1em auto;
+		margin:auto;
 	}
 	i {
 		color: $primary-color;

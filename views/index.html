@@ -10,8 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="/css/site.css">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
-<body style="height:1300px">
-
+<body ng-controller="HomeController" style="height:1300px">
 
 <md-content ng-cloak>
 	<md-toolbar id="socialNav">
@@ -89,7 +88,7 @@
 			</div>
 	</div>
 
-	<md-toolbar class="md-accent"  ng-controller="HomeController">
+	<md-toolbar class="md-accent">
 		<div class="md-toolbar-tools" layout="row" layout-md="column" layout-align="center center" layout-wrap  id="nav">
 			<a href="#/home">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/home') }">
@@ -124,7 +123,6 @@
 
 		</div>
 	</md-toolbar>
-
 </md-content>
 
 <!-- TOGGLED CARD FOR FREEBOOK SIGNUP -->
@@ -166,6 +164,7 @@
 <!-- Factories -->
 <script src="/javascript/services/HomeFactory.js"></script>
 <!-- Controllers -->
+<script src="/javascript/controllers/ContactFormController.js"></script>
 <script src="/javascript/controllers/HomeController.js"></script>
 <script src="/javascript/controllers/SuccessController.js"></script>
 </body>
