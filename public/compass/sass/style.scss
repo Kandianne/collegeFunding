@@ -15,7 +15,6 @@ $default-gradient: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
 
 body, html {
 	color: $primary-color;
-	height: 100%;
 	width: 100%;
 	font-family: 'Merriweather Sans', sans-serif;
 	a {
@@ -29,7 +28,7 @@ md-input-container label {
 }
 
 //==========================NAVIGATION==========================================
-#nav, #fixSmallNav {
+#nav {
 	box-shadow: 1px 2px 9px #777;
 	background: $primary-color;
     background: $safari-gradient;
@@ -47,6 +46,18 @@ md-input-container label {
 #fixSmallNav {
 	position: fixed;
 	top: 0;
+	box-shadow: 1px 2px 9px #777;
+	background: $primary-color;
+    background: $safari-gradient;
+    background: $opera-gradient;
+    background: $firefox-gradient;
+    background: $default-gradient;
+	.md-button {
+		color: $nonStandout-color;
+	}
+	.md-button:hover {
+		border-bottom: 3px solid $standard-color;
+	}
 }
 
 .md-toolbar-tools {

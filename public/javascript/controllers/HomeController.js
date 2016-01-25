@@ -15,15 +15,19 @@
 	}
 })();
 
-window.onscroll = function() {changeNav(); console.log("isthis running?")}; //Running func to changenav when you scroll down
-
 changeNav = function(){
+	console.log(document.body.scrollTop);
+	console.log(document.documentElement.scrollTop);
 	if(document.body.scrollTop > 524 || document.documentElement.scrollTop > 524){
+		if(document.getElementById("nav"))
 		document.getElementById("nav").id = "fixSmallNav";
-	} else if (document.body.scrollTop < 524 || document.documentElement.scrollTop < 524) {
+	} else {
+		if(document.getElementById("fixSmallNav"))
 		document.getElementById("fixSmallNav").id = "nav";
 	}
+
 }
 
+window.onscroll = function() {changeNav(); console.log("isthis running?")}; //Running func to changenav when you scroll down
 
-console.log(document.body);
+
