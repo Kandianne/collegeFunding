@@ -12,12 +12,25 @@
 		$scope.isCurrentPath = function (path) {
 			return $location.path() == path;
 		};
+
+		$scope.animateToggle1 = false;
+		// $scope.animateToggle2 = false;
+		// $scope.animateToggle3 = false;
+		// $scope.animateToggle4 = false;
+		// $scope.animateToggle5 = false;
+		// $scope.animateToggle6 = false;
+		// $scope.animateToggle7 = false;
+
 	}
+
 })();
 
+
+
+//===========================MAKING STICKY NAV============================================
 changeNav = function(){
-	console.log(document.body.scrollTop);
-	console.log(document.documentElement.scrollTop);
+	// console.log(document.body.scrollTop);
+	// console.log(document.documentElement.scrollTop);
 	if(document.body.scrollTop > 524 || document.documentElement.scrollTop > 524){
 		if(document.getElementById("nav"))
 		document.getElementById("nav").id = "fixSmallNav";
@@ -28,6 +41,6 @@ changeNav = function(){
 
 }
 
-window.onscroll = function() {changeNav(); console.log("isthis running?")}; //Running func to changenav when you scroll down
+window.onscroll = function() {changeNav()}; 
 
 

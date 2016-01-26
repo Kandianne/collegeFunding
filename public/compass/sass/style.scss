@@ -27,6 +27,13 @@ md-input-container label {
 	font-size: 1em;
 }
 
+.slide-toggle {
+  overflow: hidden;
+  transition: all 1s; 
+  margin: auto;
+}
+
+
 //==========================NAVIGATION==========================================
 #nav {
 	box-shadow: 1px 2px 9px #777;
@@ -289,6 +296,9 @@ footer {
 		margin: 2em auto;
 		color: $standard-color;
 	}
+	p {
+		padding: 3em;
+	}
 	.primaryTile {
 		background: $primary-color;
 		color: $nonStandout-color;
@@ -318,11 +328,12 @@ footer {
 		color: $primary-color;
 	}
 	md-input-container {
-		margin:auto;
+		margin-left: 30%;
 		width: 40%;
 	}
 	label {
 		text-align: center;
+		margin:auto;
 	}
 	ul {
 		margin: auto;

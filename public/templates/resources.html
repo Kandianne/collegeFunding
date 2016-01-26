@@ -2,24 +2,57 @@
 	<h2>Here are the FREE resources we provide to get you started</h2>
 
 	<md-grid-list md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="2:2" md-gutter="12px" md-gutter-gt-sm="8px">
-	  	<md-grid-tile md-rowspan="2" md-colspan="2" class="primaryTile">
-	  		Workshops
+	  	
+<!-- ===================BIGGEST CTA=============================== -->
+	  	<md-grid-tile md-rowspan="2" md-colspan="2" class="primaryTile" ng-mouseover="animateToggle1 = !animateToggle1" ng-mouseleave="animateToggle1 = !animateToggle1">
+	  			Workshops
+	  			<br>
+	  		<p ng-show="animateToggle1" class="slide-toggle">
+	  			My monthly workshops educate you on how to start your journey towards getting the funds you deserve to attend the college you want.
+	  		</p>
 	  	</md-grid-tile>
-	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="secondaryTile">
-	  		Personal Consultations
+
+<!-- ===================SMALLER CTAS WITH CLICKABLE LINKS=============================== -->
+	  	
+	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="secondaryTile" ng-mouseover="animateToggle2 = !animateToggle2" ng-mouseleave="animateToggle2 = !animateToggle2">
+	  		<a ui-sref="Contact">
+	  			Personal Consultations
+	  		</a>
 	  	</md-grid-tile>
-	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="primaryTile">
-	  		Reports
+	  	
+
+	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="primaryTile" ng-mouseover="animateToggle3 = !animateToggle3" ng-mouseleave="animateToggle3 = !animateToggle3">
+	  		<a ng-href="#">
+	  			Reports
+	  		</a>
 	  	</md-grid-tile>
-	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="secondaryTile">
-	  		Webinar
+
+	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="secondaryTile" ng-mouseover="animateToggle4 = !animateToggle4" ng-mouseleave="animateToggle4 = !animateToggle4">
+	  		<a ng-href="#">
+	  			Webinar
+	  		</a>	
 	  	</md-grid-tile>
-	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="primaryTile">
-	  		Book
+
+	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="primaryTile" ng-mouseover="animateToggle5 = !animateToggle5" ng-mouseleave="animateToggle5 = !animateToggle5">
+	  		<a ng-href="#">
+	  			Book
+	  		</a>	
 	  	</md-grid-tile>
-	  	<md-grid-tile md-rowspan="1" md-colspan="4" class="secondaryTile">
-	  		Informational Newsletters
+
+<!-- ===================MEDIUM CTAS WITH CLICKABLE LINKS=============================== -->
+	  	
+	  	<md-grid-tile md-rowspan="1" md-colspan="2" class="secondaryTile" ng-mouseover="animateToggle6 = !animateToggle6" ng-mouseleave="animateToggle6 = !animateToggle6">
+	  		<a ng-href="#">
+	  			Informational Newsletters
+	  		</a>	
 	  	</md-grid-tile>
+
+	  	<md-grid-tile md-rowspan="1" md-colspan="2" class="secondaryTile" ng-mouseover="animateToggle7 = !animateToggle7" ng-mouseleave="animateToggle7 = !animateToggle7">
+	  		<a ng-href="#">
+	  			Call for more resources!
+	  		</a>	
+	  	</md-grid-tile>
+
 	</md-grid-list>
 
 
