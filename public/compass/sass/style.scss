@@ -390,10 +390,13 @@ footer {
 
 //==============SOME MEDIA QUERIES==============================
 
-// @media only screen and (min-width : 300px) and (max-width : 1000px)
-// {
-// 	#money {
-// 		color: red;
-// 	}
+@media only screen and (min-width : 300px) and (max-width : 1279px)
+{
+	#threeMainCtas{
+		margin-top: 5em;
+		div {
+			margin: 2em auto;
+		}
+	}
 
-// }
+}

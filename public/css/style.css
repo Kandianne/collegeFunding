@@ -418,3 +418,14 @@ footer p {
   fill: #fff;
   stroke: #fff;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 1279px) {
+  /* line 395, ../compass/sass/style.scss */
+  #threeMainCtas {
+    margin-top: 5em;
+  }
+  /* line 397, ../compass/sass/style.scss */
+  #threeMainCtas div {
+    margin: 2em auto;
+  }
+}
