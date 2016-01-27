@@ -35,6 +35,10 @@ md-input-container label {
 
 
 //==========================NAVIGATION==========================================
+#mobileNav {
+	display: none;
+}
+
 #nav {
 	box-shadow: 1px 2px 9px #777;
 	background: $primary-color;
@@ -388,15 +392,79 @@ footer {
 }
 
 
-//==============SOME MEDIA QUERIES==============================
+//===========================================================*********MEDIA QUERIES************===============================================================
 
-@media only screen and (min-width : 300px) and (max-width : 1279px)
+@media only screen and (max-width : 1279px)
 {
+
+//==========================HOME==========================================
+
 	#threeMainCtas{
-		margin-top: 5em;
+		margin-top: 13em;
 		div {
-			margin: 2em auto;
+			margin-top: 3em;
 		}
+	}
+
+	#freeCtas {
+		display: none;
+	}
+
+//==========================NAVIGATION==========================================
+
+	#mobileNav {
+		display: block;
+	}
+
+	#socialNav {
+		display: none;
+	}
+
+	#nav {
+		a {
+			display: none;
+		}
+		i {
+			color: $nonStandout-color;
+			font-size: 2em;
+			text-align: center;
+		}
+		md-button {
+			width: 100%;
+		}
+	}
+
+	#toggledMobileNav {
+		background: $primary-color;
+	    background: $safari-gradient;
+	    background: $opera-gradient;
+	    background: $firefox-gradient;
+	    background: $default-gradient;
+		text-align: center;
+    	padding-top: 3em;
+    	height: 15%;
+    	.md-toolbar-tools {
+    	background: $primary-color;
+	    background: $safari-gradient;
+	    background: $opera-gradient;
+	    background: $firefox-gradient;
+	    background: $default-gradient;
+    	}
+		a, md-button {
+			width: 100%;
+		}
+		div {
+			padding-top: 1em;
+		}
+	}
+
+	#mainPic {
+		height: 300px;
+		background: url("http://i.huffpost.com/gen/3398570/images/o-HAPPY-COLLEGE-STUDENTS-facebook.jpg") center center no-repeat;
+		background-size: cover;
+	}
+	#deadlines {
+		margin-top: 17em;
 	}
 
 }

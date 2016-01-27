@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="/css/site.css">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
-<body ng-controller="HomeController" style="height:1300px">
+<body ng-controller="HomeController as vm" style="height:1300px">
 
 <md-content ng-cloak>
 	<md-toolbar id="socialNav">
@@ -90,40 +90,72 @@
 
 	<md-toolbar class="md-accent">
 		<div class="md-toolbar-tools" layout="row" layout-md="column" layout-align="center center" layout-wrap  id="nav">
+			<md-button id="mobileNav" ng-click="vm.showMobileButtons = !vm.showMobileButtons">
+				<i class="fa fa-bars"></i>
+			</md-button>
 			<a href="#/home">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/home') }">
-				Home
-			</md-button>
+					Home
+				</md-button>
 			</a>
 			<a href="#/about">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/about') }">
-				About
-			</md-button>
+					About
+				</md-button>
 			</a>
 			<a href="#/resources">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/resources') }">
-				Resources
-			</md-button>
+					Resources
+				</md-button>
 			</a>
 			<a href="#/stories">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/stories') }" >
-				ScholarShip Successes
-			</md-button>
+					ScholarShip Successes
+				</md-button>
 			</a>
-<!-- 			<a href="#/videos">
-				<md-button class="md-button" ng-class="{ active: isCurrentPath('/videos') }">
-				Videos
-			</md-button> -->
 			</a>
 			<a href="#/contact">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/contact') }">
-				Contact
-			</md-button>
+					Contact
+				</md-button>
 			</a>
-
 		</div>
 	</md-toolbar>
 </md-content>
+
+<!-- ========================================MOBILE NAVIGATION WHICH IS TOGGLED================================================================ -->
+
+<md-toolbar class="md-accent" ng-show="vm.showMobileButtons" id="toggledMobileNav">
+		<div class="md-toolbar-tools" layout="row" layout-md="column" layout-align="center center" layout-wrap>
+			<a href="#/home">
+				<md-button class="md-button" ng-class="{ active: isCurrentPath('/home') }">
+					Home
+				</md-button>
+			</a>
+			<a href="#/about">
+				<md-button class="md-button" ng-class="{ active: isCurrentPath('/about') }">
+					About
+				</md-button>
+			</a>
+			<a href="#/resources">
+				<md-button class="md-button" ng-class="{ active: isCurrentPath('/resources') }">
+					Resources
+				</md-button>
+			</a>
+			<a href="#/stories">
+				<md-button class="md-button" ng-class="{ active: isCurrentPath('/stories') }" >
+					ScholarShip Successes
+				</md-button>
+			</a>
+			</a>
+			<a href="#/contact">
+				<md-button class="md-button" ng-class="{ active: isCurrentPath('/contact') }">
+					Contact
+				</md-button>
+			</a>
+		</div>
+</md-toolbar>
+
 
 <!-- ========================================TOGGLED CARD FOR FREEBOOK SIGNUP================================================================ -->
 

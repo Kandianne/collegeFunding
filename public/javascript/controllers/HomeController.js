@@ -8,6 +8,7 @@
 	function HomeController($location, $scope) {
 		var vm = this;
 
+		vm.showMobileButtons = false;
 
 		$scope.isCurrentPath = function (path) {
 			return $location.path() == path;
