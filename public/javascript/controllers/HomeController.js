@@ -32,7 +32,7 @@
 changeNav = function(){
 	// console.log(document.body.scrollTop);
 	// console.log(document.documentElement.scrollTop);
-	if(document.body.scrollTop > 524 || document.documentElement.scrollTop > 524){
+	if(document.body.scrollTop > 524 && document.body.scrollWidth > 1279  || document.documentElement.scrollTop > 524){
 		if(document.getElementById("nav"))
 		document.getElementById("nav").id = "fixSmallNav";
 	} else {
@@ -41,6 +41,8 @@ changeNav = function(){
 	}
 
 }
+
+console.log(document.body);
 
 window.onscroll = function() {changeNav()}; 
 

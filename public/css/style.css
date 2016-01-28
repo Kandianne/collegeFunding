@@ -22,12 +22,12 @@ md-input-container label {
   margin: auto;
 }
 
-/* line 38, ../compass/sass/style.scss */
+/* line 37, ../compass/sass/style.scss */
 #mobileNav {
   display: none;
 }
 
-/* line 42, ../compass/sass/style.scss */
+/* line 41, ../compass/sass/style.scss */
 #nav {
   box-shadow: 1px 2px 9px #777;
   background: #237a2b;
@@ -36,16 +36,16 @@ md-input-container label {
   background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
   background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
 }
-/* line 49, ../compass/sass/style.scss */
+/* line 48, ../compass/sass/style.scss */
 #nav .md-button {
   color: #fff;
 }
-/* line 52, ../compass/sass/style.scss */
+/* line 51, ../compass/sass/style.scss */
 #nav .md-button:hover {
   border-bottom: 3px solid #000;
 }
 
-/* line 57, ../compass/sass/style.scss */
+/* line 56, ../compass/sass/style.scss */
 #fixSmallNav {
   position: fixed;
   top: 0;
@@ -56,41 +56,41 @@ md-input-container label {
   background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
   background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
 }
-/* line 66, ../compass/sass/style.scss */
+/* line 65, ../compass/sass/style.scss */
 #fixSmallNav .md-button {
   color: #fff;
 }
-/* line 69, ../compass/sass/style.scss */
+/* line 68, ../compass/sass/style.scss */
 #fixSmallNav .md-button:hover {
   border-bottom: 3px solid #000;
 }
 
-/* line 74, ../compass/sass/style.scss */
+/* line 73, ../compass/sass/style.scss */
 .md-toolbar-tools {
   background-color: #237a2b;
 }
-/* line 76, ../compass/sass/style.scss */
+/* line 75, ../compass/sass/style.scss */
 .md-toolbar-tools i {
   color: #5ba63d;
 }
-/* line 79, ../compass/sass/style.scss */
+/* line 78, ../compass/sass/style.scss */
 .md-toolbar-tools div .md-button {
   color: #5ba63d;
 }
 
-/* line 84, ../compass/sass/style.scss */
+/* line 83, ../compass/sass/style.scss */
 .active {
   border-bottom: 3px solid #000;
 }
 
-/* line 88, ../compass/sass/style.scss */
+/* line 87, ../compass/sass/style.scss */
 #mainPic {
   height: 460px;
   background: url("http://i.huffpost.com/gen/3398570/images/o-HAPPY-COLLEGE-STUDENTS-facebook.jpg") center center no-repeat;
   background-size: cover;
 }
 
-/* line 98, ../compass/sass/style.scss */
+/* line 97, ../compass/sass/style.scss */
 footer {
   width: 100%;
   text-align: center;
@@ -100,89 +100,89 @@ footer {
   padding: auto;
   bottom: 0;
 }
-/* line 106, ../compass/sass/style.scss */
+/* line 105, ../compass/sass/style.scss */
 footer p {
   font-size: .9em;
 }
 
 /*==========================WELCOME HEADER==================================================================================*/
-/* line 113, ../compass/sass/style.scss */
+/* line 112, ../compass/sass/style.scss */
 #ctaCards {
   font-size: 1em;
   text-align: center;
   color: #244717;
 }
 
-/* line 119, ../compass/sass/style.scss */
+/* line 118, ../compass/sass/style.scss */
 #freeCtas {
   padding-top: 6%;
   position: absolute;
   left: -6px;
 }
-/* line 123, ../compass/sass/style.scss */
+/* line 122, ../compass/sass/style.scss */
 #freeCtas a {
   color: #000;
 }
 
 /*==========================HOME PAGE==================================================================================*/
-/* line 129, ../compass/sass/style.scss */
+/* line 128, ../compass/sass/style.scss */
 #ready {
   margin-top: 4em;
   margin-bottom: 3em;
   text-align: center;
 }
-/* line 133, ../compass/sass/style.scss */
+/* line 132, ../compass/sass/style.scss */
 #ready h3 {
   color: #000;
   font-size: 2em;
 }
-/* line 137, ../compass/sass/style.scss */
+/* line 136, ../compass/sass/style.scss */
 #ready i {
   color: #000;
   font-size: 4em;
   margin: auto .3em;
 }
 
-/* line 144, ../compass/sass/style.scss */
+/* line 143, ../compass/sass/style.scss */
 #threeMainCtas {
   margin: auto;
   margin-bottom: 3.7em;
   text-align: center;
   height: 300px;
 }
-/* line 149, ../compass/sass/style.scss */
+/* line 148, ../compass/sass/style.scss */
 #threeMainCtas div {
   color: #000;
   margin: auto;
   padding: auto;
 }
-/* line 160, ../compass/sass/style.scss */
+/* line 159, ../compass/sass/style.scss */
 #threeMainCtas h5 {
   color: #237a2b;
   font-weight: bold;
 }
-/* line 164, ../compass/sass/style.scss */
+/* line 163, ../compass/sass/style.scss */
 #threeMainCtas p {
   width: 79%;
   margin: auto;
 }
-/* line 168, ../compass/sass/style.scss */
+/* line 167, ../compass/sass/style.scss */
 #threeMainCtas i {
   font-size: 3em;
   color: #237a2b;
   margin-top: .3em;
 }
-/* line 173, ../compass/sass/style.scss */
+/* line 172, ../compass/sass/style.scss */
 #threeMainCtas a {
   color: #000;
   padding: auto 1.6em;
 }
-/* line 177, ../compass/sass/style.scss */
+/* line 176, ../compass/sass/style.scss */
 #threeMainCtas .md-button {
   color: #000;
 }
 
-/* line 183, ../compass/sass/style.scss */
+/* line 182, ../compass/sass/style.scss */
 #deadlines {
   margin-top: 1.7em;
   padding-top: 4em;
@@ -197,29 +197,29 @@ footer p {
   background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
   /* Standard syntax (must be last) */
 }
-/* line 192, ../compass/sass/style.scss */
+/* line 191, ../compass/sass/style.scss */
 #deadlines h2 {
   color: #fff;
   margin-bottom: 3.6em;
 }
 
-/* line 198, ../compass/sass/style.scss */
+/* line 197, ../compass/sass/style.scss */
 #letterToParents {
   color: #000;
   margin: auto;
 }
-/* line 201, ../compass/sass/style.scss */
+/* line 200, ../compass/sass/style.scss */
 #letterToParents div {
   padding: 1em 2em;
   margin: 2em auto;
 }
-/* line 205, ../compass/sass/style.scss */
+/* line 204, ../compass/sass/style.scss */
 #letterToParents h2 {
   text-align: center;
 }
 
 /*==========================ABOUT PAGE==================================================================================*/
-/* line 212, ../compass/sass/style.scss */
+/* line 211, ../compass/sass/style.scss */
 #services {
   margin: auto;
   padding: 2.7em 1em;
@@ -231,112 +231,112 @@ footer p {
   background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
   text-align: center;
 }
-/* line 222, ../compass/sass/style.scss */
+/* line 221, ../compass/sass/style.scss */
 #services i {
   color: #000;
   font-size: 2.6em;
   margin: .6em auto;
 }
-/* line 227, ../compass/sass/style.scss */
+/* line 226, ../compass/sass/style.scss */
 #services div {
   margin: 2em auto;
 }
-/* line 230, ../compass/sass/style.scss */
+/* line 229, ../compass/sass/style.scss */
 #services p {
   color: #000;
   width: 60%;
   margin: auto;
 }
 
-/* line 237, ../compass/sass/style.scss */
+/* line 236, ../compass/sass/style.scss */
 #collegeQuestions {
   text-align: center;
   margin-top: .6em;
 }
-/* line 240, ../compass/sass/style.scss */
+/* line 239, ../compass/sass/style.scss */
 #collegeQuestions h2 {
   color: #000;
   padding: 3.6em auto 3em auto;
 }
 
-/* line 246, ../compass/sass/style.scss */
+/* line 245, ../compass/sass/style.scss */
 #welcomeVid {
   margin: auto auto 6em auto;
 }
-/* line 248, ../compass/sass/style.scss */
+/* line 247, ../compass/sass/style.scss */
 #welcomeVid iframe {
   border: thick solid #000;
 }
 
-/* line 253, ../compass/sass/style.scss */
+/* line 252, ../compass/sass/style.scss */
 #pulsingQuests {
   margin: 4em auto 3em auto;
   color: #000;
 }
-/* line 256, ../compass/sass/style.scss */
+/* line 255, ../compass/sass/style.scss */
 #pulsingQuests div {
   margin: 3em;
 }
 
 /*==============================CONTACT PAGE==================================================================================*/
-/* line 265, ../compass/sass/style.scss */
+/* line 264, ../compass/sass/style.scss */
 .contact h3 {
   margin: 2.3em auto;
   padding: 2em auto;
   color: #000;
 }
-/* line 270, ../compass/sass/style.scss */
+/* line 269, ../compass/sass/style.scss */
 .contact h4 {
   color: #000;
   text-align: center;
 }
-/* line 274, ../compass/sass/style.scss */
+/* line 273, ../compass/sass/style.scss */
 .contact p {
   color: #000;
 }
-/* line 277, ../compass/sass/style.scss */
+/* line 276, ../compass/sass/style.scss */
 .contact .md-button {
   display: block;
   color: #000;
   margin: auto;
 }
-/* line 282, ../compass/sass/style.scss */
+/* line 281, ../compass/sass/style.scss */
 .contact i {
   color: #237a2b;
   font-size: 1.6em;
 }
 
-/* line 288, ../compass/sass/style.scss */
+/* line 287, ../compass/sass/style.scss */
 .social {
   margin: 1.6em auto;
 }
-/* line 290, ../compass/sass/style.scss */
+/* line 289, ../compass/sass/style.scss */
 .social a {
   color: #237a2b;
 }
 
 /*=========================RESOURCES PAGE============================================================================*/
-/* line 298, ../compass/sass/style.scss */
+/* line 297, ../compass/sass/style.scss */
 #resources h2 {
   text-align: center;
   margin: 2em auto;
   color: #000;
 }
-/* line 303, ../compass/sass/style.scss */
+/* line 302, ../compass/sass/style.scss */
 #resources p {
   padding: 3em;
 }
-/* line 306, ../compass/sass/style.scss */
+/* line 305, ../compass/sass/style.scss */
 #resources .primaryTile {
   background: #237a2b;
   color: #fff;
 }
-/* line 310, ../compass/sass/style.scss */
+/* line 309, ../compass/sass/style.scss */
 #resources .secondaryTile {
   background: #5ba63d;
   color: #000;
 }
-/* line 314, ../compass/sass/style.scss */
+/* line 313, ../compass/sass/style.scss */
 #resources .standardTile {
   border: thick solid #000;
   background: #fff;
@@ -344,41 +344,41 @@ footer p {
 }
 
 /*=========================SCHOLARSHIP SUCCESS PAGE============================================================================*/
-/* line 323, ../compass/sass/style.scss */
+/* line 322, ../compass/sass/style.scss */
 #rewards {
   margin: auto 3em;
   color: #000;
 }
-/* line 326, ../compass/sass/style.scss */
+/* line 325, ../compass/sass/style.scss */
 #rewards h2 {
   text-align: center;
   margin: 2em auto;
 }
-/* line 330, ../compass/sass/style.scss */
+/* line 329, ../compass/sass/style.scss */
 #rewards h5 {
   text-align: center;
   color: #237a2b;
 }
-/* line 334, ../compass/sass/style.scss */
+/* line 333, ../compass/sass/style.scss */
 #rewards md-input-container {
   margin-left: 30%;
   width: 40%;
 }
-/* line 338, ../compass/sass/style.scss */
+/* line 337, ../compass/sass/style.scss */
 #rewards label {
   text-align: center;
   margin: auto;
 }
-/* line 342, ../compass/sass/style.scss */
+/* line 341, ../compass/sass/style.scss */
 #rewards ul {
   margin: auto;
 }
-/* line 345, ../compass/sass/style.scss */
+/* line 344, ../compass/sass/style.scss */
 #rewards li {
   list-style: none;
   padding: 1em;
 }
-/* line 349, ../compass/sass/style.scss */
+/* line 348, ../compass/sass/style.scss */
 #rewards p {
   height: 4em;
   margin-bottom: .3em;
@@ -387,18 +387,18 @@ footer p {
   border-bottom: thin solid #237a2b;
 }
 
-/* line 358, ../compass/sass/style.scss */
+/* line 357, ../compass/sass/style.scss */
 #successBox {
   border: thin solid #237a2b;
   padding: 3em;
 }
 
 /*=========================VIDEOS============================================================================*/
-/* line 367, ../compass/sass/style.scss */
+/* line 366, ../compass/sass/style.scss */
 #videos iframe {
   margin: 2em auto;
 }
-/* line 370, ../compass/sass/style.scss */
+/* line 369, ../compass/sass/style.scss */
 #videos h2 {
   text-align: center;
   margin: 3em auto 2em auto;
@@ -406,65 +406,65 @@ footer p {
 }
 
 /*==========================SEPARATOR STYLING==================================================================================*/
-/* line 379, ../compass/sass/style.scss */
+/* line 378, ../compass/sass/style.scss */
 #bigHalfCircle {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 384, ../compass/sass/style.scss */
+/* line 383, ../compass/sass/style.scss */
 #trianglePath1 {
   fill: #244717;
   stroke: #244717;
 }
 
-/* line 389, ../compass/sass/style.scss */
+/* line 388, ../compass/sass/style.scss */
 #bigTriangleShadow {
   fill: #fff;
   stroke: #fff;
 }
 
 @media only screen and (max-width: 1279px) {
-  /* line 402, ../compass/sass/style.scss */
+  /* line 401, ../compass/sass/style.scss */
   #threeMainCtas {
     margin-top: 13em;
   }
-  /* line 404, ../compass/sass/style.scss */
+  /* line 403, ../compass/sass/style.scss */
   #threeMainCtas div {
     margin-top: 3em;
   }
 
-  /* line 409, ../compass/sass/style.scss */
+  /* line 408, ../compass/sass/style.scss */
   #freeCtas {
     display: none;
   }
 
-  /* line 415, ../compass/sass/style.scss */
+  /* line 414, ../compass/sass/style.scss */
   #mobileNav {
     display: block;
   }
 
-  /* line 419, ../compass/sass/style.scss */
+  /* line 418, ../compass/sass/style.scss */
   #socialNav {
     display: none;
   }
 
-  /* line 424, ../compass/sass/style.scss */
+  /* line 423, ../compass/sass/style.scss */
   #nav a {
     display: none;
   }
-  /* line 427, ../compass/sass/style.scss */
+  /* line 426, ../compass/sass/style.scss */
   #nav i {
     color: #fff;
     font-size: 2em;
     text-align: center;
   }
-  /* line 432, ../compass/sass/style.scss */
+  /* line 431, ../compass/sass/style.scss */
   #nav md-button {
     width: 100%;
   }
 
-  /* line 437, ../compass/sass/style.scss */
+  /* line 436, ../compass/sass/style.scss */
   #toggledMobileNav {
     background: #237a2b;
     background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b);
@@ -475,7 +475,7 @@ footer p {
     padding-top: 3em;
     height: 15%;
   }
-  /* line 446, ../compass/sass/style.scss */
+  /* line 445, ../compass/sass/style.scss */
   #toggledMobileNav .md-toolbar-tools {
     background: #237a2b;
     background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b);
@@ -483,23 +483,23 @@ footer p {
     background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
     background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
   }
-  /* line 453, ../compass/sass/style.scss */
+  /* line 452, ../compass/sass/style.scss */
   #toggledMobileNav a, #toggledMobileNav md-button {
     width: 100%;
   }
-  /* line 456, ../compass/sass/style.scss */
+  /* line 455, ../compass/sass/style.scss */
   #toggledMobileNav div {
     padding-top: 1em;
   }
 
-  /* line 461, ../compass/sass/style.scss */
+  /* line 460, ../compass/sass/style.scss */
   #mainPic {
     height: 300px;
     background: url("http://i.huffpost.com/gen/3398570/images/o-HAPPY-COLLEGE-STUDENTS-facebook.jpg") center center no-repeat;
     background-size: cover;
   }
 
-  /* line 466, ../compass/sass/style.scss */
+  /* line 465, ../compass/sass/style.scss */
   #deadlines {
     margin-top: 17em;
   }
