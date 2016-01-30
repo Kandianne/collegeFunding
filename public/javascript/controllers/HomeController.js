@@ -30,9 +30,10 @@
 
 //===========================MAKING STICKY NAV============================================
 changeNav = function(){
-	// console.log(document.body.scrollTop);
+	console.log(document.body.scrollTop, "over 524 should be sticky");
 	// console.log(document.documentElement.scrollTop);
-	if(document.body.scrollTop > 524 && document.body.scrollWidth > 1279  || document.documentElement.scrollTop > 524){
+	// if(document.body.scrollTop > 524 && document.body.scrollWidth > 1279  || document.documentElement.scrollTop > 524){
+	if(document.body.scrollTop > 524){
 		if(document.getElementById("nav"))
 		document.getElementById("nav").id = "fixSmallNav";
 	} else {

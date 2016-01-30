@@ -6,6 +6,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.4.0/animate.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.5.1/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.3/angular-material.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/site.css">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
@@ -21,40 +22,42 @@
 				</md-button>
 			</div>
 			<span flex></span>
-				<md-button class="md-icon-button">
-				<a href="">
-				<i class="fa fa-phone"></i>
-				</a>
-				</md-button>
-				<!-- <md-button class="md-button">
+				<md-button class="md-button">
 					(626) 657-7887
-				</md-button> -->
-			<md-button class="md-icon-button">
+				</md-button>
+			<md-button class="md-icon-button" aria-label="facebook">
 				<a href="https://www.facebook.com/BestCollegesForPenniesOnTheDollar/" target="_blank">
-				<i class="fa fa-facebook-square"></i>
+				<i class="fa fa-facebook"></i>
 				</a>
 			</md-button>
-			<md-button class="md-icon-button">
+			<md-button class="md-icon-button" aria-label="youtube">
 				<a href="https://www.youtube.com/channel/UCNkDLQOuMCa03qxwwsMT5iQ"  target="_blank">
-					<i class="fa fa-youtube-square"></i>
+					<i class="fa fa-youtube"></i>
 				</a>
 			</md-button>
-			<md-button class="md-icon-button">
-				<a href="">
-					<i class="fa fa-twitter-square"></i>
+			<md-button class="md-icon-button" aria-label="linkedin">
+				<a href="https://www.linkedin.com/in/trevor-ramos-3343679b" target="_blank">
+					<i class="fa fa-linkedin"></i>
 				</a>
 			</md-button>
 		</div>
 	</md-toolbar>
 
 	<div class="md-tall md-primary md-hue-1" id="mainPic">
-			<div layout="row" layout-align="center center" id="ctaCards">
+			<img class="logo" src="../images/logo_large_no_back_white.png" alt="College Funding Remedies Logo" />
+			<!-- <div layout="row" layout-align="center center" id="ctaCards">
 				<h3>
 					How To Send Your Kids To The Best, Most Expensive Colleges In America For Pennies On The Dollar!
 				</h3>
+			</div> -->
+			<div class="fotorama" data-autoplay="true" data-loop-"true" data-nav="false"  data-arrows="false">
+				<img src="../images/book-onchalkboard.jpg" alt="College Funding Book" />
+				<img src="../images/book-onchalkboard.jpg" alt="College Funding Book" />
+				<img src="../images/book-onchalkboard.jpg" alt="College Funding Book" />
 			</div>
-			<img src="../images/logo_large_no_back_white.png" id="logo">
-			<!-- <div layout="column" flex="20" id="freeCtas">
+	</div>
+
+	<!-- <div layout="column" flex="20" id="freeCtas">
 					<md-card>
 					<md-card-content class="md-button">
 						<a href="http://collegefundingremedies.com/wellsfargo/" target="_blank">
@@ -87,7 +90,6 @@
 					</md-card-content>
 					</md-card>
 			</div> -->
-	</div>
 
 	<md-toolbar class="md-accent">
 		<div class="md-toolbar-tools" layout="row" layout-md="column" layout-align="center center" layout-wrap  id="nav">
@@ -257,7 +259,8 @@ return true;
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular-aria.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.3/angular-material.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular-animate.min.js"></script>
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.5.1/fotorama.js"></script>
 
 <!-- Global Sources -->
 <script src="/javascript/app.js"></script>
