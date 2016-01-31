@@ -41,7 +41,7 @@ md-input-container label {
 }
 
 //==========================NAVIGATION==========================================
-#mobileNav {
+#mobileNav, #fixedMobileNav {
 	display: none;
 }
 
@@ -92,7 +92,7 @@ md-input-container label {
 }
 
 #mainPic {
-	height: 36%;
+	height: 30%;
 	width: 100%;
 	// background: url("http://i.huffpost.com/gen/3398570/images/o-HAPPY-COLLEGE-STUDENTS-facebook.jpg") center center no-repeat;
 	// background: url(/images/book-onchalkboard.jpg) center center no-repeat;
@@ -100,15 +100,16 @@ md-input-container label {
 	.logo {
 		position:absolute;
 		margin:0;
-		margin-top: 7%;
+		margin-top: 3%;
 		z-index: 1;
-		width: 20%;
+		width: 16%;
 	}
 	.fotorama {
 		margin:0 auto;
+		height: 100%;
 		img {
 			width:100%;
-			height:70%;
+			height: 100%;
 			margin:0 auto;
 		}
 	}	
@@ -210,8 +211,12 @@ footer {
     background: -o-linear-gradient(right, #237a2b, #5ba63d, #237a2b); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b); /* Standard syntax (must be last) */
+    iframe {
+    	// min-width: 100%;
+    	width: 100%;
+    }
     h2 {
-    	color:$nonStandout-color;
+    	color: $nonStandout-color;
     	margin-bottom: 3.6em;
     }
 }
@@ -462,6 +467,7 @@ footer {
 	}
 
 	#fixedMobileNav {
+		display: block;
 		position: fixed;
 		top: 0;
 		.md-toolbar-tools {
@@ -471,6 +477,35 @@ footer {
 		    background: $default-gradient;
 		}
 	    i {
+	    	color: $nonStandout-color;
+	    }
+	}
+
+	#fixedToggleNav {
+		position: fixed;
+		top: 0;
+		background: $primary-color;
+	    background: $safari-gradient;
+	    background: $opera-gradient;
+	    background: $firefox-gradient;
+	    background: $default-gradient;
+		text-align: center;
+    	padding-top: 3em;
+    	height: 23%;
+    	.md-toolbar-tools {
+    	background: $primary-color;
+	    background: $safari-gradient;
+	    background: $opera-gradient;
+	    background: $firefox-gradient;
+	    background: $default-gradient;
+    	}
+		a, md-button {
+			width: 100%;
+		}
+		div {
+			padding-top: 1em;
+		}
+		i {
 	    	color: $nonStandout-color;
 	    }
 	}
@@ -497,6 +532,9 @@ footer {
 		div {
 			padding-top: 1em;
 		}
+		i {
+	    	color: $nonStandout-color;
+	    }
 	}
 
 	#mainPic {

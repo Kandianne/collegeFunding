@@ -17,7 +17,7 @@
 	Config.$inject = ['$stateProvider', '$urlRouterProvider', '$mdThemingProvider'];
 	function Config($stateProvider, $urlRouterProvider, $mdThemingProvider) {
 		$stateProvider.state('Home',{
-			url: '/',
+			url: '/home',
 			templateUrl: 'templates/home.html'
 		}).state('About',{
 			url: '/about',
@@ -38,7 +38,7 @@
 			url: '/contact',
 			templateUrl: 'templates/contact.html'
 		});
-		$urlRouterProvider.otherwise('/');
+		$urlRouterProvider.otherwise('/home');
 	}
 })();
 

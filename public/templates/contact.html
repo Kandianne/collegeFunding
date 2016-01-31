@@ -2,16 +2,40 @@
 	<div class="contact" layout flex layout-align="center">
 		<h3>Come visit or Send us a message</h3>
 	</div>	
-	<div layout="row" class="contact" layout-align="center center" layout-md="column" layout-sm="column">
-			<md-card  data-ng-controller="ContactFormController as cf" flex="70" layout-padding layout-wrap>
-				<form name="contactForm" data-ng-submit="cf.sendMail()">
+
+	<div layout="row" class="contact" layout-align="center center">
+		<md-card flex-gt-sm="70" flex="100" layout-lg layout-padding layout-wrap >
+			<md-card-content flex>
+				<div layout>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1ses!2sus!4v1447036042345!6m8!1m7!1sUtPk854qhePGGlCQn5VI3Q!2m2!1d34.14591462709601!2d-118.1287162737336!3f349.82!4f1.9899999999999949!5f0.7820865974627469" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div layout flex>
+					<div>
+						<h5 layout>
+							<p><i class="fa fa-phone"></i>&nbsp;&nbsp; 626.657.7887</p>
+						</h5>
+						<h5 layout>
+							<p><i class="fa fa-envelope"></i>&nbsp; info@collegefundingremedies.com</p>
+						</h5>
+						<h5 layout>
+							<p><i class="fa fa-home"></i>&nbsp; 1055 East Colorado Blvd. #500, Pasadena, CA 91106</p>
+						</h5>
+					</div>
+				</div>
+			</md-card-content>
+		</md-card>
+	</div>
+
+	<div layout="row" class="contact" layout-align="center center">
+			<md-card  data-ng-controller="ContactFormController as cf" flex-gt-sm="70" flex="100" layout-lg layout-padding layout-wrap>
+				<form name="contactForm" data-ng-submit="cf.sendMail()" flex>
 					<md-card-content>
 						<h4>Fill out below and send</h4>
 							<md-input-container layout>
 							<label>
 								Full Name and Grade of Student
 							</label>
-							<input type="text" name="name" value="" data-ng-model="cf.contactStudent" required>
+							<input type="text" name="name" value="" data-ng-model="cf.contactStudent" required layout>
 							</md-input-container>
 
 							<md-input-container layout>
@@ -43,30 +67,8 @@
 			</md-card>
 	</div>
 	 
-	<div layout="row" class="contact" layout-align="center center" layout-md="column" layout-sm="column">
-		<md-card flex="70" layout-padding layout-wrap >
-			<md-card-content >
-				<div layout>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1ses!2sus!4v1447036042345!6m8!1m7!1sUtPk854qhePGGlCQn5VI3Q!2m2!1d34.14591462709601!2d-118.1287162737336!3f349.82!4f1.9899999999999949!5f0.7820865974627469" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>
-				<div layout flex>
-					<div>
-						<h5 layout>
-							<p><i class="fa fa-phone"></i>&nbsp;&nbsp; 626.657.7887</p>
-						</h5>
-						<h5 layout>
-							<p><i class="fa fa-envelope"></i>&nbsp; info@collegefundingremedies.com</p>
-						</h5>
-						<h5 layout>
-							<p><i class="fa fa-home"></i>&nbsp; 1055 East Colorado Blvd. #500, Pasadena, CA 91106</p>
-						</h5>
-					</div>
-				</div>
-			</md-card-content>
-		</md-card>
-
-	</div>
-	<div flex="13" layout="row" layout-align="center" class="social">
+	
+	<div flex="13" layout layout-align="center" class="social">
 
 					<a ng-href="https://www.facebook.com/BestCollegesForPenniesOnTheDollar/" target="_blank">
 					<md-button class="md-button">
