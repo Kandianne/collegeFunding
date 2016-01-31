@@ -42,7 +42,7 @@
 			</md-button>
 		</div>
 	</md-toolbar>
-	
+
 	<div class="md-tall md-primary md-hue-1" id="mainPic">
 			<img class="logo" src="../images/logo_large_no_back_white.png" alt="College Funding Remedies Logo" />
 			<!-- <div layout="row" layout-align="center center" id="ctaCards">
@@ -124,7 +124,7 @@
 
 <!-- ========================================MOBILE BARS ICON================================================================ -->
 
-	<md-toolbar id="mobileNav">
+	<md-toolbar id="mobileNav" class="md-whiteframe-9dp">
 		<div class="md-toolbar-tools" layout layout-md="column" layout-align="center center" layout-wrap>
 			<md-button  class="md-button" ng-click="showMobileButtons = !showMobileButtons" flex>
 				<i class="fa fa-bars"></i>
@@ -134,7 +134,7 @@
 
 <!-- ========================================MOBILE NAVIGATION WHICH IS TOGGLED================================================================ -->
 
-<md-toolbar class="md-accent" ng-show="showMobileButtons" id="toggledMobileNav">
+<md-toolbar class="md-whiteframe-13dp" ng-show="showMobileButtons" id="toggledMobileNav">
 		<div class="md-toolbar-tools" layout-md="column" layout-align="center center" layout-wrap>
 			<a href="#/home" layout>
 				<md-button ng-click="showMobileButtons = !showMobileButtons" class="md-button" ng-class="{ active: isCurrentPath('/home') }" flex>

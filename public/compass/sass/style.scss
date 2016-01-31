@@ -79,6 +79,10 @@ md-input-container label {
 
 .md-toolbar-tools {
 	background-color: $primary-color;
+	background: $safari-gradient;
+    background: $opera-gradient;
+    background: $firefox-gradient;
+    background: $default-gradient;
 	i {
 		color: $secondary-color;
 	}
@@ -449,7 +453,7 @@ footer {
 
 //==========================NAVIGATION==========================================
 
-	#socialNav, #nav {
+	#socialNav, #nav, #fixSmallNav {
 		display: none;
 	}
 
@@ -483,7 +487,7 @@ footer {
 
 	#fixedToggleNav {
 		position: fixed;
-		top: 0;
+		top: 47;
 		background: $primary-color;
 	    background: $safari-gradient;
 	    background: $opera-gradient;
@@ -557,4 +561,12 @@ footer {
 			width: 90%;
 			padding: 2em;
 		}
+}
+
+@media only screen and (max-width : 599px)
+{
+	.flex-xs-100 {
+		-webkit-flex: 0;
+		flex: 1 1 19% !important;
+	}
 }

@@ -32,7 +32,7 @@ changeNav = function(){
 	// console.log(document.body.scrollTop, "over 524 should be sticky");
 	// if(document.body.scrollTop > 524 && document.body.scrollWidth > 1279  || document.documentElement.scrollTop > 524){
 	
-	if(document.body.scrollWidth < 1280 && document.body.scrollTop > 530){
+	if(document.body.scrollWidth < 1280 && document.body.scrollTop > 500){
 		if(document.getElementById("mobileNav") && document.getElementById("toggledMobileNav"))
 		document.getElementById("mobileNav").id = "fixedMobileNav";
 		document.getElementById("toggledMobileNav").id = "fixedToggleNav";
@@ -42,7 +42,7 @@ changeNav = function(){
 	} else if(document.body.scrollTop > 530 && document.body.scrollWidth > 1280){
 		if(document.getElementById("nav"))
 		document.getElementById("nav").id = "fixSmallNav";
-	} else if (document.body.scrollWidth < 1280 && document.body.scrollTop < 530) {
+	} else if (document.body.scrollWidth < 1280 && document.body.scrollTop < 500) {
 		if(document.getElementById("fixedMobileNav") && document.getElementById("fixedToggleNav"))
 		document.getElementById("fixedMobileNav").id = "mobileNav";
 		document.getElementById("fixedToggleNav").id = "toggledMobileNav";
