@@ -544,5 +544,17 @@ footer {
 	#deadlines {
 		margin-top: 17em;
 	}
+}
 
+@media only screen and (max-width : 959px)
+{
+		#services 
+			p {
+			width: 87%;
+		}
+
+		#about {
+			width: 90%;
+			padding: 2em;
+		}
 }

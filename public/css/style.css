@@ -593,3 +593,16 @@ footer p {
     margin-top: 17em;
   }
 }
+@media only screen and (max-width: 959px) {
+  /* line 551, ../compass/sass/style.scss */
+  #services
+  p {
+    width: 87%;
+  }
+
+  /* line 556, ../compass/sass/style.scss */
+  #about {
+    width: 90%;
+    padding: 2em;
+  }
+}
