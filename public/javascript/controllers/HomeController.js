@@ -30,15 +30,19 @@
 
 //===========================MAKING STICKY NAV============================================
 changeNav = function(){
-	console.log(document.body.scrollTop, "over 524 should be sticky");
-	// console.log(document.documentElement.scrollTop);
+	// console.log(document.body.scrollTop, "over 524 should be sticky");
 	// if(document.body.scrollTop > 524 && document.body.scrollWidth > 1279  || document.documentElement.scrollTop > 524){
-	if(document.body.scrollTop > 524){
+	
+	if(document.body.scrollWidth < 1280){
+		if(document.getElementById("mobileNav"))
+		document.getElementById("mobileNav").id = "fixedMobileNav";
+	} else if(document.body.scrollTop > 524){
 		if(document.getElementById("nav"))
 		document.getElementById("nav").id = "fixSmallNav";
 	} else {
-		if(document.getElementById("fixSmallNav"))
+		// if(document.getElementById("fixSmallNav"))
 		document.getElementById("fixSmallNav").id = "nav";
+		document.getElementById("fixedMobileNav").id = "mobileNav";
 	}
 
 }

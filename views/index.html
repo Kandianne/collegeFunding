@@ -13,7 +13,7 @@
 </head>
 <body ng-controller="HomeController as vm" style="height:1300px">
 
-<md-content ng-cloak>
+
 	<md-toolbar id="socialNav">
 		<div class="md-toolbar-tools">
 			<div>
@@ -91,11 +91,8 @@
 					</md-card>
 			</div> -->
 
-	<md-toolbar class="md-accent">
-		<div class="md-toolbar-tools" layout="row" layout-md="column" layout-align="center center" layout-wrap  id="nav">
-			<md-button id="mobileNav" ng-click="vm.showMobileButtons = !vm.showMobileButtons">
-				<i class="fa fa-bars"></i>
-			</md-button>
+	<md-toolbar class="md-accent" id="nav">
+		<div class="md-toolbar-tools" layout="row" layout-md="column" layout-align="center center" layout-wrap>
 			<a href="#/home">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/home') }">
 					Home
@@ -124,35 +121,44 @@
 			</a>
 		</div>
 	</md-toolbar>
-</md-content>
+
+<!-- ========================================MOBILE BARS ICON================================================================ -->
+
+	<md-toolbar id="mobileNav">
+		<div class="md-toolbar-tools" layout layout-md="column" layout-align="center center" layout-wrap>
+			<md-button  class="md-button" ng-click="showMobileButtons = !showMobileButtons" flex>
+				<i class="fa fa-bars"></i>
+			</md-button>
+		</div>
+	</md-toolbar>
 
 <!-- ========================================MOBILE NAVIGATION WHICH IS TOGGLED================================================================ -->
 
-<md-toolbar class="md-accent" ng-show="vm.showMobileButtons" id="toggledMobileNav">
-		<div class="md-toolbar-tools" layout="row" layout-md="column" layout-align="center center" layout-wrap>
-			<a href="#/home">
-				<md-button class="md-button" ng-class="{ active: isCurrentPath('/home') }">
+<md-toolbar class="md-accent" ng-show="showMobileButtons" id="toggledMobileNav">
+		<div class="md-toolbar-tools" layout-md="column" layout-align="center center" layout-wrap>
+			<a href="#/home" layout>
+				<md-button ng-click="showMobileButtons = !showMobileButtons" class="md-button" ng-class="{ active: isCurrentPath('/home') }" flex>
 					Home
 				</md-button>
 			</a>
-			<a href="#/about">
-				<md-button class="md-button" ng-class="{ active: isCurrentPath('/about') }">
+			<a href="#/about" layout>
+				<md-button ng-click="showMobileButtons = !showMobileButtons" class="md-button" ng-class="{ active: isCurrentPath('/about') }" flex>
 					About
 				</md-button>
 			</a>
-			<a href="#/resources">
-				<md-button class="md-button" ng-class="{ active: isCurrentPath('/resources') }">
+			<a href="#/resources" layout>
+				<md-button ng-click="showMobileButtons = !showMobileButtons" class="md-button" ng-class="{ active: isCurrentPath('/resources') }" flex>
 					Resources
 				</md-button>
 			</a>
-			<a href="#/stories">
-				<md-button class="md-button" ng-class="{ active: isCurrentPath('/stories') }" >
+			<a href="#/stories" layout>
+				<md-button ng-click="showMobileButtons = !showMobileButtons" class="md-button" ng-class="{ active: isCurrentPath('/stories') }" flex>
 					ScholarShip Successes
 				</md-button>
 			</a>
 			</a>
-			<a href="#/contact">
-				<md-button class="md-button" ng-class="{ active: isCurrentPath('/contact') }">
+			<a href="#/contact" layout>
+				<md-button ng-click="showMobileButtons = !showMobileButtons" class="md-button" ng-class="{ active: isCurrentPath('/contact') }" flex>
 					Contact
 				</md-button>
 			</a>
