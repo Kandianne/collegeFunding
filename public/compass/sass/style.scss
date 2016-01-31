@@ -92,7 +92,7 @@ md-input-container label {
 }
 
 #mainPic {
-	height: 33%;
+	height: 36%;
 	width: 100%;
 	// background: url("http://i.huffpost.com/gen/3398570/images/o-HAPPY-COLLEGE-STUDENTS-facebook.jpg") center center no-repeat;
 	// background: url(/images/book-onchalkboard.jpg) center center no-repeat;
@@ -108,7 +108,7 @@ md-input-container label {
 		margin:0 auto;
 		img {
 			width:100%;
-			height:100%;
+			height:70%;
 			margin:0 auto;
 		}
 	}	
@@ -424,6 +424,11 @@ footer {
 @media only screen and (max-width : 1279px)
 {
 
+	.active {
+		background: $primary-color;
+		border: none;
+	}
+
 //==========================HOME==========================================
 
 	#threeMainCtas{
@@ -459,6 +464,15 @@ footer {
 	#fixedMobileNav {
 		position: fixed;
 		top: 0;
+		.md-toolbar-tools {
+		    background: $safari-gradient;
+		    background: $opera-gradient;
+		    background: $firefox-gradient;
+		    background: $default-gradient;
+		}
+	    i {
+	    	color: $nonStandout-color;
+	    }
 	}
 
 	#toggledMobileNav {

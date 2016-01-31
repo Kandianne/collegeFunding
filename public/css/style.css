@@ -93,7 +93,7 @@ md-input-container label {
 
 /* line 94, ../compass/sass/style.scss */
 #mainPic {
-  height: 33%;
+  height: 36%;
   width: 100%;
 }
 /* line 100, ../compass/sass/style.scss */
@@ -111,7 +111,7 @@ md-input-container label {
 /* line 109, ../compass/sass/style.scss */
 #mainPic .fotorama img {
   width: 100%;
-  height: 100%;
+  height: 70%;
   margin: 0 auto;
 }
 
@@ -458,48 +458,65 @@ footer p {
 }
 
 @media only screen and (max-width: 1279px) {
-  /* line 429, ../compass/sass/style.scss */
+  /* line 427, ../compass/sass/style.scss */
+  .active {
+    background: #237a2b;
+    border: none;
+  }
+
+  /* line 434, ../compass/sass/style.scss */
   #threeMainCtas {
     margin-top: 13em;
   }
-  /* line 431, ../compass/sass/style.scss */
+  /* line 436, ../compass/sass/style.scss */
   #threeMainCtas div {
     margin-top: 3em;
   }
 
-  /* line 436, ../compass/sass/style.scss */
+  /* line 441, ../compass/sass/style.scss */
   #freeCtas {
     display: none;
   }
 
-  /* line 442, ../compass/sass/style.scss */
+  /* line 447, ../compass/sass/style.scss */
   #socialNav, #nav {
     display: none;
   }
 
-  /* line 446, ../compass/sass/style.scss */
+  /* line 451, ../compass/sass/style.scss */
   #mobileNav {
     display: block;
   }
-  /* line 448, ../compass/sass/style.scss */
+  /* line 453, ../compass/sass/style.scss */
   #mobileNav .md-toolbar-tools {
     background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b);
     background: -o-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
     background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
     background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
   }
-  /* line 454, ../compass/sass/style.scss */
+  /* line 459, ../compass/sass/style.scss */
   #mobileNav i {
     color: #fff;
   }
 
-  /* line 459, ../compass/sass/style.scss */
+  /* line 464, ../compass/sass/style.scss */
   #fixedMobileNav {
     position: fixed;
     top: 0;
   }
+  /* line 467, ../compass/sass/style.scss */
+  #fixedMobileNav .md-toolbar-tools {
+    background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b);
+    background: -o-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
+    background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
+    background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
+  }
+  /* line 473, ../compass/sass/style.scss */
+  #fixedMobileNav i {
+    color: #fff;
+  }
 
-  /* line 464, ../compass/sass/style.scss */
+  /* line 478, ../compass/sass/style.scss */
   #toggledMobileNav {
     background: #237a2b;
     background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b);
@@ -510,7 +527,7 @@ footer p {
     padding-top: 3em;
     height: 15%;
   }
-  /* line 473, ../compass/sass/style.scss */
+  /* line 487, ../compass/sass/style.scss */
   #toggledMobileNav .md-toolbar-tools {
     background: #237a2b;
     background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b);
@@ -518,16 +535,16 @@ footer p {
     background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
     background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
   }
-  /* line 480, ../compass/sass/style.scss */
+  /* line 494, ../compass/sass/style.scss */
   #toggledMobileNav a, #toggledMobileNav md-button {
     width: 100%;
   }
-  /* line 483, ../compass/sass/style.scss */
+  /* line 497, ../compass/sass/style.scss */
   #toggledMobileNav div {
     padding-top: 1em;
   }
 
-  /* line 492, ../compass/sass/style.scss */
+  /* line 506, ../compass/sass/style.scss */
   #deadlines {
     margin-top: 17em;
   }

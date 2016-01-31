@@ -23,7 +23,6 @@
 		// $scope.animateToggle7 = false;
 
 	}
-
 })();
 
 
@@ -33,18 +32,20 @@ changeNav = function(){
 	// console.log(document.body.scrollTop, "over 524 should be sticky");
 	// if(document.body.scrollTop > 524 && document.body.scrollWidth > 1279  || document.documentElement.scrollTop > 524){
 	
-	if(document.body.scrollWidth < 1280){
+	if(document.body.scrollWidth < 1280 && document.body.scrollTop > 524){
 		if(document.getElementById("mobileNav"))
 		document.getElementById("mobileNav").id = "fixedMobileNav";
 	} else if(document.body.scrollTop > 524){
 		if(document.getElementById("nav"))
 		document.getElementById("nav").id = "fixSmallNav";
+	} else if(document.body.scrollTop < 524 && document.body.scrollWidth > 1280){
+		if(document.getElementById("fixSmallNav"))
+		document.getElementById("fixSmallNav").id = "nav";
 	} else {
 		// if(document.getElementById("fixSmallNav"))
-		document.getElementById("fixSmallNav").id = "nav";
 		document.getElementById("fixedMobileNav").id = "mobileNav";
+		console.log("Nav back to normal")
 	}
-
 }
 
 console.log(document.body);
