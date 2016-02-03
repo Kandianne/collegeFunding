@@ -28,6 +28,27 @@ $default-gradient: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
 	}
 }
 
+#globalSignUp {
+	width: 300px;
+	padding: .3em;
+	position: absolute;
+	top: -7px;
+	right: 0;
+	text-align: center;
+	background:$nonStandout-color;
+	h5 {
+		color: $standard-color;
+		text-align: center;
+		padding-top: 1em;
+	}
+	.md-button {
+		color: black;
+		font-size: .79em;
+	}
+	select {
+		margin: auto;
+	}
+}
 
 //==================MAIN===============================
 

@@ -119,6 +119,11 @@
 					Contact
 				</md-button>
 			</a>
+			<a ng-click="ebook = !ebook">
+				<md-button>
+					E-BOOK
+				</md-button>
+			</a>
 		</div>
 	</md-toolbar>
 
@@ -168,95 +173,57 @@
 
 <!-- ========================================TOGGLED CARD FOR FREEBOOK SIGNUP================================================================ -->
 
-	<md-card ng-hide="!freeBook" flex="30" layout-padding layout="row" layout-md="column" layout-wrap id="signUp" class="animated fadeInRight">
-		<form>
-			<md-card-content>
-				<h5>FREE Book/Video Reveals How To Get FREE Money Scholarships & Grants To Pay For College!</h5>
-				
-				<!-- HIDDEN INPUTS -->
-	    		<input name="redirect" value="http://collegefundingremedies.com/freebook/offer" type="hidden"/>
-	   			<input name="errorredirect" value="http://www.icontact.com/www/signup/error.html" type="hidden"/>
+<form ng-show="ebook" id="globalSignUp" class="md-whiteframe-7dp" flex="60" layout-align="center center" method="post" action="https://app.icontact.com/icp/signup.php" name="icpsignup" id="icpsignup3500" accept-charset="UTF-8" onsubmit="return verifyRequired3500();" >
 
-				<md-input-container>
-					<label>
-						First Name
-					</label>
-						<input name="fields_fname2" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'First Name':this.value;" value="First Name" type="text"/>
-				</md-input-container>
+	<input type="hidden" name="redirect" value="http://www.icontact.com/www/signup/thanks.html">
+	<input type="hidden" name="errorredirect" value="http://www.icontact.com/www/signup/error.html">
 
-				<md-input-container>
-					<label>
-						Email
-					</label>
-						<input name="fields_email" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Email':this.value;" value="Email" type="text"/>
-				</md-input-container>
+	<div>
+		<h5>FREE Book/Video Reveals How To Get FREE Money Scholarships & Grants To Pay For College!</h5>
+		<md-input-container layout>
+			<label>
+				First Name
+			</label>
+			<input type="text" name="fields_fname" required>
+		</md-input-container>
+		<md-input-container layout>
+			<label>
+				Email
+			</label>
+			<input type="text" name="fields_email" required>
+		</md-input-container>
+		<md-input-container layout flex>
+			<select name="fields_gradeofchild">
+			    <option>Select Grade of Child</option>
+			    <option value="8th grade">8th grade</option> 
+			    <option value="9th grade">9th grade</option> 
+			    <option value="10th grade">10th grade</option> 
+			    <option value="11th grade">11th grade</option> 
+			    <option value="12th grade">12th grade</option> 
+			    <option value="College Freshmen">College Freshmen</option> 
+			    <option value="College Sophmore">College Sophmore</option> 
+			    <option value="College Junior">College Junior</option> 
+			    <option value="College Senior">College Senior</option> 
+			</select>
+		</md-input-container>
 
-				<md-input-container>
-					<!-- <label>
-						Select Grade of Child
-					</label> -->
-						<select name="fields_gradeofchild" class="drop"> 
-					        <option>Select Grade of Child</option>
-					        <option value="8th grade">8th grade</option> 
-					        <option value="9th grade">9th grade</option> 
-					        <option value="10th grade">10th grade</option> 
-					        <option value="11th grade">11th grade</option> 
-					        <option value="12th grade">12th grade</option> 
-					        <option value="College Freshmen">College Freshmen</option> 
-					        <option value="College Sophmore">College Sophmore</option> 
-					        <option value="College Junior">College Junior</option> 
-					        <option value="College Senior">College Senior</option> 
-					    </select>
-				</md-input-container>
-
-				<md-button class="md-button" value="submit" name="Submit" type="submit">
-				SUBMIT FOR FREE BOOK
-				</md-button>
-				
-				<!-- MORE HIDDEN INPUTS -->
-				<input name="listid" value="19260" type="hidden" /> 
-			    <input name="specialid:19260" value="BLI0" type="hidden" /> 
-			    <input name="clientid" value="1189426" type="hidden" /> 
-			    <input name="formid" value="3500" type="hidden" /> 
-			    <input name="reallistid" value="1" type="hidden" /> 
-			    <input name="doubleopt" value="0" type="hidden" />
-			</md-card-content>
-		</form>
-	</md-card>
+	    <input type="hidden" name="listid" value="19260">
+	    <input type="hidden" name="specialid:19260" value="BLI0">
+	    <input type="hidden" name="clientid" value="1189426">
+	    <input type="hidden" name="formid" value="3500">
+	    <input type="hidden" name="reallistid" value="1">
+	    <input type="hidden" name="doubleopt" value="0">
+	    
+	    <md-button class="md-button md-raised" value="submit" name="Submit" type="submit" layout>
+			SUBMIT FOR FREE BOOK
+		</md-button>
+	 </div>
+</form>
 
 
-
-
+	
 <ui-view></ui-view>
 
-<!-- ======================SCRIPT FOR FREE BOOK OPT IN BOX============================ -->
-
-<script type="text/javascript">// <![CDATA[
-var icpForm3500 = document.getElementById('icpsignup3500');
-
-if (document.location.protocol === "https:")
-
-    icpForm3500.action = "https://app.icontact.com/icp/signup.php";
-function verifyRequired3500() {
-  if (icpForm3500["fields_fname"].value == "") {
-    icpForm3500["fields_fname"].focus();
-    alert("The First Name field is required.");
-    return false;
-  }
-  if (icpForm3500["fields_email"].value == "") {
-    icpForm3500["fields_email"].focus();
-    alert("The Email field is required.");
-    return false;
-  }
-  if (icpForm3500["fields_gradeofchild"].value == "") {
-    icpForm3500["fields_gradeofchild"].focus();
-    alert("Please Select the Grade of Child");
-    return false;
-  }
-
-return true;
-}
-// ]]></script>
 
 
 <!-- External Libs -->
