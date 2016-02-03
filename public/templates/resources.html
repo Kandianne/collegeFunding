@@ -1,18 +1,61 @@
 <div id="resources">
 	<h2>Here are the FREE resources we provide to get you started</h2>
 
+<!-- ========================================TOGGLED CARD FOR FREEBOOK SIGNUP================================================================ -->
+
+<form ng-show="freeBook" class="md-whiteframe-7dp" flex="60" layout-align="center center" method="post" action="https://app.icontact.com/icp/signup.php" name="icpsignup" id="icpsignup3500" accept-charset="UTF-8" onsubmit="return verifyRequired3500();" >
+
+	<input type="hidden" name="redirect" value="http://www.icontact.com/www/signup/thanks.html">
+	<input type="hidden" name="errorredirect" value="http://www.icontact.com/www/signup/error.html">
+
+	<div id="SignUp">
+		<md-input-container layout>
+			<label>
+				First Name
+			</label>
+			<input type="text" name="fields_fname" required>
+		</md-input-container>
+		<md-input-container layout>
+			<label>
+				Email
+			</label>
+			<input type="text" name="fields_email" required>
+		</md-input-container>
+		<md-input-container layout flex>
+			<select name="fields_gradeofchild">
+			    <option>Select Grade of Child</option>
+			    <option value="8th grade">8th grade</option> 
+			    <option value="9th grade">9th grade</option> 
+			    <option value="10th grade">10th grade</option> 
+			    <option value="11th grade">11th grade</option> 
+			    <option value="12th grade">12th grade</option> 
+			    <option value="College Freshmen">College Freshmen</option> 
+			    <option value="College Sophmore">College Sophmore</option> 
+			    <option value="College Junior">College Junior</option> 
+			    <option value="College Senior">College Senior</option> 
+			</select>
+		</md-input-container>
+
+	    <input type="hidden" name="listid" value="19260">
+	    <input type="hidden" name="specialid:19260" value="BLI0">
+	    <input type="hidden" name="clientid" value="1189426">
+	    <input type="hidden" name="formid" value="3500">
+	    <input type="hidden" name="reallistid" value="1">
+	    <input type="hidden" name="doubleopt" value="0">
+	    
+	    <md-button class="md-button md-raised" value="submit" name="Submit" type="submit" layout>
+			SUBMIT FOR FREE BOOK
+		</md-button>
+	 </div>
+</form>
+
+
+<!-- =============================================RESOURCES START=================================================================== -->
+
 	<md-grid-list md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="2:2" md-gutter="12px" md-gutter-gt-sm="8px">
-	  	
 <!-- ===================BIGGEST CTA=============================== -->
-	  	<!-- <md-grid-tile md-rowspan="2" md-colspan="2" class="primaryTile" ng-mouseover="animateToggle1 = !animateToggle1" ng-mouseleave="animateToggle1 = !animateToggle1">
-	  			Workshops
-	  			<br>
-	  		<p ng-show="animateToggle1" class="slide-toggle">
-	  			My monthly workshops educate you on how to start your journey towards getting the funds you deserve to attend the college or universityyou desire.
-	  		</p>
-	  	</md-grid-tile> -->
-	  	<md-grid-tile md-rowspan="2" md-colspan="2" class="primaryTile">
-	  		<a ng-href="http://collegefundingremedies.com/workshop/">
+	 	  	<md-grid-tile md-rowspan="2" md-colspan="2" class="primaryTile">
+	  		<a ng-href="http://collegefundingremedies.com/workshop/" target="_blank">
 	  			<p>
 	  			<span>WORKSHOPS</span>
 	  			<br>
@@ -32,8 +75,8 @@
 	  			</p>
 	  		</a>	
 	  	</md-grid-tile>
-	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="primaryTile">
-	  		<a ui-sref="Contact">
+	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="primaryTile" ng-click="freeBook = !freeBook">
+	  		<a>
 	  			<p>
 	  			<span>REPORTS</span>
 	  			<br>
@@ -42,7 +85,7 @@
 	  		</a>
 	  	</md-grid-tile>
 	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="secondaryTile">
-	  		<a ng-href="https://howtogetfreemoneyforcollegebook.clickfunnels.com/webinar-registrationqz5s26ao">
+	  		<a ng-href="https://howtogetfreemoneyforcollegebook.clickfunnels.com/webinar-registrationqz5s26ao" target="_blank">
 	  			<p>
 	  			<span>WEBINAR</span>
 	  			<br>
@@ -50,20 +93,20 @@
 	  			</p>
 	  		</a>	
 	  	</md-grid-tile>
-	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="primaryTile">
-	  		<a ng-href="http://www.amazon.com/dp/1508769826/ref=rdr_ext_tmb">
+	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="primaryTile" ng-click="freeBook = !freeBook">
+	  		<a>
 	  			<p>
-	  			<span>BOOK</span>
+	  			<span>E-BOOK</span>
 	  			<br>
-	  			My book is the ultimate guide to getting free money for college.
+	  			My E-book allows you read into what we do to help you.
 	  			</p>
 	  		</a>	
 	  	</md-grid-tile>
 
 <!-- ===================MEDIUM CTAS WITH CLICKABLE LINKS=============================== -->
 	  	
-	  	<md-grid-tile md-rowspan="1" md-colspan="2" class="secondaryTile">
-	  		<a ui-sref="Contact">
+	  	<md-grid-tile md-rowspan="1" md-colspan="2" class="secondaryTile" ng-click="freeBook = !freeBook">
+	  		<a>
 	  			<p>
 	  			<span>INFORMATIONAL NEWSLETTERS</span>
 	  			<br>
@@ -81,7 +124,6 @@
 	  			</p>
 	  		</a>	
 	  	</md-grid-tile>
-
 	</md-grid-list>
 
 	<footer>
@@ -89,3 +131,4 @@
     </footer>
 
 </div>
+

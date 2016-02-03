@@ -11,6 +11,24 @@ $opera-gradient: -o-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
 $firefox-gradient: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
 $default-gradient: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
 
+//==================OPT IN FORM===============================
+
+
+#signUp {
+	margin: auto;
+	padding: 3em;
+	text-align: center;
+	h5 {
+		color: #237a2b;
+		text-align: center;
+		padding-top: 1em;
+	}
+	.md-button {
+		color: black;
+	}
+}
+
+
 //==================MAIN===============================
 
 body, html {
@@ -89,6 +107,10 @@ md-input-container label {
 	div .md-button {
 		color: $secondary-color;
 	}
+}
+
+#social {
+	background: transparent;
 }
 
 .active {
@@ -327,7 +349,7 @@ footer {
 #resources {
 	h2 {
 		text-align: center;
-		margin: 2em auto;
+		margin: 3em auto;
 		color: $standard-color;
 	}
 	p {
@@ -338,6 +360,9 @@ footer {
 	}
 	span {
 		font-weight: bold;
+	}
+	form {
+		margin: auto;
 	}
 	.primaryTile {
 		background: $primary-color;

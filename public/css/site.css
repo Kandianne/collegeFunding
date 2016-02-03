@@ -24,22 +24,6 @@
 }
 
 
-#signUp {
-	position: absolute;
-	right:0;
-	top: 17px;
-}
-
-#signUp h5 {
-	color: #237a2b;
-	text-align: center;
-	padding-top: 1em;
-}
-
-#signUp .md-button {
-	margin: auto auto auto 19%;
-	color: black;
-}
 /*==========================HOME PAGE==================================================================================*/
 
 
