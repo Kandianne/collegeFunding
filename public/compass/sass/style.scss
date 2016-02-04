@@ -139,7 +139,6 @@ md-input-container label {
 }
 
 #mainPic {
-	height: 30%;
 	width: 100%;
 	// background: url("http://i.huffpost.com/gen/3398570/images/o-HAPPY-COLLEGE-STUDENTS-facebook.jpg") center center no-repeat;
 	// background: url(/images/book-onchalkboard.jpg) center center no-repeat;
@@ -153,7 +152,7 @@ md-input-container label {
 	}
 	.fotorama {
 		margin:0 auto;
-		height: 100%;
+		height: auto;
 		padding: 0;
 		img {
 			margin: 0;
@@ -542,7 +541,7 @@ footer {
 	    background: $default-gradient;
 		text-align: center;
     	padding-top: 3em;
-    	height: 23%;
+    	height: 26%;
     	.md-toolbar-tools {
     	background: $primary-color;
 	    background: $safari-gradient;
