@@ -11,8 +11,32 @@ $opera-gradient: -o-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
 $firefox-gradient: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
 $default-gradient: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
 
-//==================OPT IN FORM===============================
+//==================FAB BUTTON STYLE===============================
 
+
+.fabSpeedDialdemoBasicUsage .text-capitalize {
+  text-transform: capitalize; }
+.fabSpeedDialdemoBasicUsage .md-fab:hover, .fabSpeedDialdemoBasicUsage .md-fab.md-focused {
+  background-color: #000 !important; }
+.fabSpeedDialdemoBasicUsage p.note {
+  font-size: 1.2rem; }
+.fabSpeedDialdemoBasicUsage .lock-size {
+  min-width: 300px;
+  min-height: 300px;
+  width: 300px;
+  height: 300px;
+  }
+
+  #speedDialButton {
+  	position: fixed;
+  	right: 0;
+  	z-index: 3;
+  	md-fab-trigger .md-fab {
+  		background: $accentStandOutTwo-color;
+  	}
+  }
+
+//==================OPT IN FORM===============================
 
 #signUp {
 	margin: auto;
@@ -70,13 +94,6 @@ md-input-container label {
   overflow: hidden;
   transition: all 1s; 
   margin: auto;
-}
-
-#logo {
-	max-width: 19%;
-	position: absolute;
-	bottom: 17%;
-	left: 0;
 }
 
 //==========================NAVIGATION==========================================
@@ -146,7 +163,7 @@ md-input-container label {
 	.logo {
 		position:absolute;
 		margin:0;
-		margin-top: 13%;
+		margin-top: 17.6%;
 		z-index: 1;
 		width: 16%;
 	}

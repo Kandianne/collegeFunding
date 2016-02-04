@@ -3,7 +3,6 @@
 	angular.module('app')
 	.controller('HomeController', HomeController);
 
-	HomeController.$inject = ['$location', '$scope'];
 
 	function HomeController($location, $scope) {
 		var vm = this;
@@ -14,7 +13,7 @@
 			return $location.path() == path;
 		};
 
-		$scope.animateToggle1 = false;
+		// $scope.animateToggle1 = false;
 		// $scope.animateToggle2 = false;
 		// $scope.animateToggle3 = false;
 		// $scope.animateToggle4 = false;

@@ -42,6 +42,32 @@
 			</md-button>
 		</div>
 	</div> -->
+	<div id="speedDialButton" ng-controller="FabSpeedDialController" class="lock-size" layout="row" layout-align="center center">
+	    <md-fab-speed-dial md-open="isOpen" md-direction="down" ng-class="selectedMode">
+	        <md-fab-trigger>
+	          	<md-button aria-label="menu" class="md-fab md-raised">
+	            	<i class="fa fa-plus"></i>
+	          	</md-button>
+	        </md-fab-trigger>
+	        <md-fab-actions>
+	        	<a href="https://www.linkedin.com/in/trevor-ramos-3343679b" target="_blank">
+		          	<md-button aria-label="LinkedIn" class="md-fab md-raised md-mini">
+		            	<i class="fa fa-linkedin"></i>
+		          	</md-button>
+	          	</a>
+	          	<a href="https://www.facebook.com/BestCollegesForPenniesOnTheDollar/" target="_blank">
+		          	<md-button aria-label="Facebook" class="md-fab md-raised md-mini">
+		            	<i class="fa fa-facebook"></i>
+		          	</md-button>
+	          	</a>
+	          	<a href="https://www.facebook.com/BestCollegesForPenniesOnTheDollar/" target="_blank">
+		          	<md-button aria-label="College Funding Remedies Book" class="md-fab md-raised md-mini">
+		            	<i class="fa fa-book"></i>
+		          	</md-button>
+	          	</a>
+	        </md-fab-actions>
+	    </md-fab-speed-dial>
+    </div>
 
 	<div class="md-tall md-primary md-hue-1" id="mainPic">
 			<img class="logo" src="../images/logo_large_no_back_white.png" alt="College Funding Remedies Logo" />
@@ -51,46 +77,13 @@
 				</h3>
 			</div> -->
 			<div class="fotorama" data-autoplay="true" data-loop-"true" data-nav="false"  data-arrows="false">
-				<img src="../images/how-to-get-free-money.jpg" alt="College Funding Book" />
+				<img src="../images/how-to-get-free-money.jpg" alt="College Funding Book" href="http://www.amazon.com/dp/1508769826/ref=rdr_ext_tmb" />
 				<img src="../images/students_webinar_cfr.jpg" alt="College Funding Book" />
 				<img src="../images/how-to-get-free-money.jpg" alt="College Funding Book" />
 			</div>
 	</div>
 
-	<!-- <div layout="column" flex="20" id="freeCtas">
-					<md-card>
-					<md-card-content class="md-button">
-						<a href="http://collegefundingremedies.com/wellsfargo/" target="_blank">
-							FREE Workshop
-						</a>		
-					</md-card-content>
-					</md-card>
-
-					<md-card  ng-click="freeBook = !freeBook;" layout-wrap>
-					<md-card-content class="md-button">
-						<a href="">
-							FREE Book
-						</a>
-					</md-card-content>
-					</md-card>
-
-					<md-card  ng-click="freeBook = !freeBook;" layout-wrap>
-					<md-card-content class="md-button">
-						<a href="">
-							FREE Consultation
-						</a>
-					</md-card-content>
-					</md-card>
-
-					<md-card  ng-click="freeBook = !freeBook;" layout-wrap>
-					<md-card-content class="md-button">
-						<a href="">
-							FREE Webinar
-						</a>
-					</md-card-content>
-					</md-card>
-			</div> -->
-
+	
 	<md-toolbar class="md-accent" id="nav">
 		<div class="md-toolbar-tools" layout="row" layout-md="column" layout-align="center center" layout-wrap>
 			<a href="#/home">
@@ -242,6 +235,7 @@
 <!-- Controllers -->
 <script src="/javascript/controllers/HomeController.js"></script>
 <script src="/javascript/controllers/ContactFormController.js"></script>
+<script src="/javascript/controllers/FabSpeedDialController.js"></script>
 <script src="/javascript/controllers/SuccessController.js"></script>
 <script src="/javascript/controllers/AnimateDirective.js"></script>
 
