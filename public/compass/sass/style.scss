@@ -636,20 +636,22 @@ footer {
 		text-align: center;
 		margin: auto;
 		color: $standard-color;
-		i, span {
-			color: $primary-color;
+			i, h4 {
+				color: $primary-color;
+			}
+			i {
+				font-size: 2em;
+			}
+			div {
+				margin:auto 2em 6em 2em;
+			}
+			a {
+				color: $standard-color;
+			}
+			p {
+				padding:0;
+			}
 		}
-		i {
-			margin: .6em auto;
-			font-size: 2em;
-		}
-		div {
-			margin: auto;
-		}
-		a {
-			color: $standard-color;
-		}
-}
 }
 
 @media only screen and (max-width : 599px)

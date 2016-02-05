@@ -706,25 +706,28 @@ footer p {
     color: #000;
   }
   /* line 639, ../compass/sass/style.scss */
-  #resourcesSmallView i, #resourcesSmallView span {
+  #resourcesSmallView i, #resourcesSmallView h4 {
     color: #237a2b;
   }
   /* line 642, ../compass/sass/style.scss */
   #resourcesSmallView i {
-    margin: .6em auto;
     font-size: 2em;
   }
-  /* line 646, ../compass/sass/style.scss */
+  /* line 645, ../compass/sass/style.scss */
   #resourcesSmallView div {
-    margin: auto;
+    margin: auto 2em 6em 2em;
   }
-  /* line 649, ../compass/sass/style.scss */
+  /* line 648, ../compass/sass/style.scss */
   #resourcesSmallView a {
     color: #000;
   }
+  /* line 651, ../compass/sass/style.scss */
+  #resourcesSmallView p {
+    padding: 0;
+  }
 }
 @media only screen and (max-width: 599px) {
-  /* line 657, ../compass/sass/style.scss */
+  /* line 659, ../compass/sass/style.scss */
   .flex-xs-100 {
     -webkit-flex: 0;
     flex: 1 1 19% !important;
