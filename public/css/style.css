@@ -726,8 +726,24 @@ footer p {
     padding: 0;
   }
 }
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 730px) {
   /* line 659, ../compass/sass/style.scss */
+  #rewards {
+    margin: auto .3em;
+  }
+  /* line 661, ../compass/sass/style.scss */
+  #rewards p {
+    height: 7em;
+    margin: 3em auto;
+  }
+
+  /* line 666, ../compass/sass/style.scss */
+  #successBox {
+    padding: .1em;
+  }
+}
+@media only screen and (max-width: 599px) {
+  /* line 673, ../compass/sass/style.scss */
   .flex-xs-100 {
     -webkit-flex: 0;
     flex: 1 1 19% !important;

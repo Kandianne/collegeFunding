@@ -654,6 +654,20 @@ footer {
 		}
 }
 
+@media only screen and (max-width : 730px)
+{
+	#rewards {
+	margin: auto .3em;
+		p {
+			height: 7em;
+			margin: 3em auto;
+		}
+	}
+	#successBox {
+		padding: .1em;
+	}
+}
+
 @media only screen and (max-width : 599px)
 {
 	.flex-xs-100 {
