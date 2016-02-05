@@ -3,133 +3,199 @@
 
 <!-- ========================================TOGGLED CARD FOR FREEBOOK SIGNUP================================================================ -->
 
-<form ng-show="freeBook" class="md-whiteframe-7dp" flex="60" layout-align="center center" method="post" action="https://app.icontact.com/icp/signup.php" name="icpsignup" id="icpsignup3500" accept-charset="UTF-8" onsubmit="return verifyRequired3500();" >
+	<form ng-show="freeBook" class="md-whiteframe-7dp" flex="60" layout-align="center center" method="post" action="https://app.icontact.com/icp/signup.php" name="icpsignup" id="icpsignup3500" accept-charset="UTF-8" onsubmit="return verifyRequired3500();" >
 
-	<input type="hidden" name="redirect" value="http://www.icontact.com/www/signup/thanks.html">
-	<input type="hidden" name="errorredirect" value="http://www.icontact.com/www/signup/error.html">
+		<input type="hidden" name="redirect" value="http://www.icontact.com/www/signup/thanks.html">
+		<input type="hidden" name="errorredirect" value="http://www.icontact.com/www/signup/error.html">
 
-	<div id="SignUp">
-		<h5>FREE Book/Video Reveals How To Get FREE Money Scholarships & Grants To Pay For College!</h5>
-		<md-input-container layout>
-			<label>
-				First Name
-			</label>
-			<input type="text" name="fields_fname" required>
-		</md-input-container>
-		<md-input-container layout>
-			<label>
-				Email
-			</label>
-			<input type="text" name="fields_email" required>
-		</md-input-container>
-		<md-input-container layout flex>
-			<select name="fields_gradeofchild">
-			    <option>Select Grade of Child</option>
-			    <option value="8th grade">8th grade</option> 
-			    <option value="9th grade">9th grade</option> 
-			    <option value="10th grade">10th grade</option> 
-			    <option value="11th grade">11th grade</option> 
-			    <option value="12th grade">12th grade</option> 
-			    <option value="College Freshmen">College Freshmen</option> 
-			    <option value="College Sophmore">College Sophmore</option> 
-			    <option value="College Junior">College Junior</option> 
-			    <option value="College Senior">College Senior</option> 
-			</select>
-		</md-input-container>
+		<div id="SignUp">
+			<h5>FREE Book/Video Reveals How To Get FREE Money Scholarships & Grants To Pay For College!</h5>
+			<md-input-container layout>
+				<label>
+					First Name
+				</label>
+				<input type="text" name="fields_fname" required>
+			</md-input-container>
+			<md-input-container layout>
+				<label>
+					Email
+				</label>
+				<input type="text" name="fields_email" required>
+			</md-input-container>
+			<md-input-container layout flex>
+				<select name="fields_gradeofchild">
+				    <option>Select Grade of Child</option>
+				    <option value="8th grade">8th grade</option> 
+				    <option value="9th grade">9th grade</option> 
+				    <option value="10th grade">10th grade</option> 
+				    <option value="11th grade">11th grade</option> 
+				    <option value="12th grade">12th grade</option> 
+				    <option value="College Freshmen">College Freshmen</option> 
+				    <option value="College Sophmore">College Sophmore</option> 
+				    <option value="College Junior">College Junior</option> 
+				    <option value="College Senior">College Senior</option> 
+				</select>
+			</md-input-container>
 
-	    <input type="hidden" name="listid" value="19260">
-	    <input type="hidden" name="specialid:19260" value="BLI0">
-	    <input type="hidden" name="clientid" value="1189426">
-	    <input type="hidden" name="formid" value="3500">
-	    <input type="hidden" name="reallistid" value="1">
-	    <input type="hidden" name="doubleopt" value="0">
-	    
-	    <md-button class="md-button md-raised" value="submit" name="Submit" type="submit" layout>
-			SUBMIT FOR FREE BOOK
-		</md-button>
-	 </div>
-</form>
+		    <input type="hidden" name="listid" value="19260">
+		    <input type="hidden" name="specialid:19260" value="BLI0">
+		    <input type="hidden" name="clientid" value="1189426">
+		    <input type="hidden" name="formid" value="3500">
+		    <input type="hidden" name="reallistid" value="1">
+		    <input type="hidden" name="doubleopt" value="0">
+		    
+		    <md-button class="md-button md-raised" value="submit" name="Submit" type="submit" layout>
+				SUBMIT FOR FREE BOOK
+			</md-button>
+		 </div>
+	</form>
 
 
 <!-- =============================================RESOURCES START=================================================================== -->
+	<div id="gridList">
+		<md-grid-list md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="2:2" md-gutter="12px" md-gutter-gt-sm="8px">
+	<!-- ===================BIGGEST CTA=============================== -->
+		 	  	<md-grid-tile md-rowspan="2" md-colspan="2" class="primaryTile">
+		  		<a ng-href="http://collegefundingremedies.com/workshop/" target="_blank">
+		  			<p>
+		  			<span>WORKSHOPS</span>
+		  			<br>
+		  			Our monthly live workshops educate you on how to start your journey towards getting the funds you deserve. Click here to register for our next FREE workshop.
+		  			</p>
+		  		</a>
+		  	</md-grid-tile>
 
-	<md-grid-list md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="2:2" md-gutter="12px" md-gutter-gt-sm="8px">
-<!-- ===================BIGGEST CTA=============================== -->
-	 	  	<md-grid-tile md-rowspan="2" md-colspan="2" class="primaryTile">
-	  		<a ng-href="http://collegefundingremedies.com/workshop/" target="_blank">
+	<!-- ===================SMALLER CTAS WITH CLICKABLE LINKS=============================== -->
+		  	
+		  	<md-grid-tile md-rowspan="1" md-colspan="1" class="secondaryTile">
+		  		<a ui-sref="Contact">
+		  			<p>
+		  			<span>CONSULTATIONS</span>
+		  			<br>
+		  			Let's connect and discover how you will go about affording college.
+		  			</p>
+		  		</a>	
+		  	</md-grid-tile>
+		  	<md-grid-tile md-rowspan="1" md-colspan="1" class="primaryTile" ng-click="freeBook = !freeBook">
+		  		<a>
+		  			<p>
+		  			<span>REPORTS</span>
+		  			<br>
+		  			Get 4 free reports that help students get the grants and awards you need.
+		  			</p>
+		  		</a>
+		  	</md-grid-tile>
+		  	<md-grid-tile md-rowspan="1" md-colspan="1" class="secondaryTile">
+		  		<a ng-href="https://howtogetfreemoneyforcollegebook.clickfunnels.com/webinar-registrationqz5s26ao" target="_blank">
+		  			<p>
+		  			<span>WEBINAR</span>
+		  			<br>
+		  			View my online webinar, available to you at no cost. 
+		  			</p>
+		  		</a>	
+		  	</md-grid-tile>
+		  	<md-grid-tile md-rowspan="1" md-colspan="1" class="primaryTile" ng-click="freeBook = !freeBook">
+		  		<a>
+		  			<p>
+		  			<span>E-BOOK</span>
+		  			<br>
+		  			My E-book allows you read into what we do to help you.
+		  			</p>
+		  		</a>	
+		  	</md-grid-tile>
+	<!-- ===================MEDIUM CTAS WITH CLICKABLE LINKS=============================== -->
+		  	
+		  	<md-grid-tile md-rowspan="1" md-colspan="2" class="secondaryTile" ng-click="freeBook = !freeBook">
+		  		<a>
+		  			<p>
+		  			<span>INFORMATIONAL NEWSLETTERS</span>
+		  			<br>
+		  			Get periodical emails keeping you informed with do-it-yourself advice.
+		  			</p>
+		  		</a>	
+		  	</md-grid-tile>
+
+		  	<md-grid-tile md-rowspan="1" md-colspan="2" class="secondaryTile">
+		  		<a ui-sref="Contact">
+		  			<p>
+		  			<span>CALL FOR MORE RESOURCES</span>
+		  			<br>
+		  			Don't see anything useful? Get in touch to get the exact info you need.
+		  			</p>
+		  		</a>	
+		  	</md-grid-tile>
+		</md-grid-list>
+	</div>
+
+<!-- =============================================SMALL VIEW TO AVOID GRID LIST ERRORS===================================== -->
+
+	<div layout layout-align="center" layout-xs="column" layout-sm="column" layout-md="column" id="resourcesSmallView">
+		<div flex>
+			<a ng-href="http://collegefundingremedies.com/#/workshop/" target="_blank">
 	  			<p>
+	  			<i class="fa fa-book"></i>
+	  			<br>
 	  			<span>WORKSHOPS</span>
 	  			<br>
-	  			Our monthly live workshops educate you on how to start your journey towards getting the funds you deserve. Click here to register for our next FREE workshop.
+	  			Click here to register for our next FREE workshop.
 	  			</p>
 	  		</a>
-	  	</md-grid-tile>
-
-<!-- ===================SMALLER CTAS WITH CLICKABLE LINKS=============================== -->
-	  	
-	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="secondaryTile">
-	  		<a ui-sref="Contact">
+		</div>
+		<div flex>
+			<a ng-href="https://howtogetfreemoneyforcollegebook.clickfunnels.com/webinar-registrationqz5s26ao" target="_blank">
 	  			<p>
-	  			<span>CONSULTATIONS</span>
+				<i class="fa fa-book"></i>
 	  			<br>
-	  			Let's connect and discover how you will go about affording college.
+	  			<span>WEBINAR</span>
+	  			<br>
+	  			View my online webinar, available to you at no cost. 
 	  			</p>
-	  		</a>	
-	  	</md-grid-tile>
-	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="primaryTile" ng-click="freeBook = !freeBook">
-	  		<a>
+	  		</a>
+		</div>
+		<div flex>
+			<a ui-sref="Contact">
+		  			<p>
+		  			<i class="fa fa-book"></i>
+	  				<br>
+		  			<span>CONSULTATIONS</span>
+		  			<br>
+		  			Let's connect and discover how you will go about affording college.
+		  			</p>
+		  	</a>
+		</div>
+		<div flex>
+			<a>
 	  			<p>
+				<i class="fa fa-book"></i>
+	  			<br>
 	  			<span>REPORTS</span>
 	  			<br>
 	  			Get 4 free reports that help students get the grants and awards you need.
 	  			</p>
 	  		</a>
-	  	</md-grid-tile>
-	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="secondaryTile">
-	  		<a ng-href="https://howtogetfreemoneyforcollegebook.clickfunnels.com/webinar-registrationqz5s26ao" target="_blank">
-	  			<p>
-	  			<span>WEBINAR</span>
+		</div>
+		<div flex>
+			<a>
+		  		<p>
+		  		<i class="fa fa-book"></i>
 	  			<br>
-	  			View my online webinar, available to you at no cost. 
-	  			</p>
-	  		</a>	
-	  	</md-grid-tile>
-	  	<md-grid-tile md-rowspan="1" md-colspan="1" class="primaryTile" ng-click="freeBook = !freeBook">
-	  		<a>
-	  			<p>
-	  			<span>E-BOOK</span>
-	  			<br>
-	  			My E-book allows you read into what we do to help you.
-	  			</p>
-	  		</a>	
-	  	</md-grid-tile>
-
-<!-- ===================MEDIUM CTAS WITH CLICKABLE LINKS=============================== -->
-	  	
-	  	<md-grid-tile md-rowspan="1" md-colspan="2" class="secondaryTile" ng-click="freeBook = !freeBook">
-	  		<a>
-	  			<p>
-	  			<span>INFORMATIONAL NEWSLETTERS</span>
-	  			<br>
-	  			Get periodical emails keeping you informed with do-it-yourself advice.
-	  			</p>
-	  		</a>	
-	  	</md-grid-tile>
-
-	  	<md-grid-tile md-rowspan="1" md-colspan="2" class="secondaryTile">
-	  		<a ui-sref="Contact">
-	  			<p>
-	  			<span>CALL FOR MORE RESOURCES</span>
-	  			<br>
-	  			Don't see anything useful? Get in touch to get the exact info you need.
-	  			</p>
-	  		</a>	
-	  	</md-grid-tile>
-	</md-grid-list>
-
+		  		<span>INFORMATIONAL NEWSLETTERS</span>
+		  		<br>
+		  		Get periodical emails keeping you informed with do-it-yourself advice.
+		  		</p>
+		  	</a>
+		</div>
+	
 	<footer>
         <p>&copy; Copyright 2014 College Funding Remedies. Website Kreated by Kandianne.</p>
     </footer>
+
+	</div>
+
+<!-- =============================================SMALL VIEW TO AVOID GRID LIST ERRORS END===================================== -->
+
+
+	
 
 </div>
 

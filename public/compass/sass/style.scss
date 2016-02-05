@@ -417,6 +417,9 @@ footer {
 	}
 }
 
+#resourcesSmallView {
+	display: none;
+}
 /*=========================SCHOLARSHIP SUCCESS PAGE============================================================================*/
 
 #rewards {
@@ -613,8 +616,11 @@ footer {
 	}
 }
 
-@media only screen and (max-width : 959px)
+@media only screen and (max-width : 960px)
 {
+		#gridList {
+			display: none;
+		}
 		#services 
 			p {
 			width: 87%;
@@ -624,6 +630,26 @@ footer {
 			width: 90%;
 			padding: 2em;
 		}
+
+		#resourcesSmallView {
+		display: initial;
+		text-align: center;
+		margin: auto;
+		color: $standard-color;
+		i, span {
+			color: $primary-color;
+		}
+		i {
+			margin: .6em auto;
+			font-size: 2em;
+		}
+		div {
+			margin: auto;
+		}
+		a {
+			color: $standard-color;
+		}
+}
 }
 
 @media only screen and (max-width : 599px)
