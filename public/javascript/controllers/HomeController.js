@@ -24,7 +24,12 @@
 	}
 })();
 
+//=============================CHANGING VIEWPORTS=========================================
 
+// if (screen.width < 480) {
+//  document.getElementById("viewport").setAttribute("content", "width=480");
+//  console.log("changing vieports");
+// }
 
 //===========================MAKING STICKY NAV============================================
 changeNav = function(){
