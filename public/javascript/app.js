@@ -37,6 +37,9 @@
 		}).state('Contact',{
 			url: '/contact',
 			templateUrl: 'templates/contact.html'
+		}).state('Workshop',{
+			url: '/workshop',
+			templateUrl: 'templates/workshop'
 		});
 		$urlRouterProvider.otherwise('/home');
 	}
