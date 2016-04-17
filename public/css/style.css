@@ -267,7 +267,7 @@ footer p {
 }
 /* line 250, ../compass/sass/style.scss */
 #threeMainCtas p {
-  width: 96%;
+  width: 79%;
   margin: auto;
 }
 /* line 254, ../compass/sass/style.scss */
@@ -560,57 +560,58 @@ footer p {
   /* line 510, ../compass/sass/style.scss */
   #threeMainCtas {
     margin-top: 13em;
+    width: 96%;
   }
-  /* line 512, ../compass/sass/style.scss */
+  /* line 513, ../compass/sass/style.scss */
   #threeMainCtas div {
     margin-top: 3em;
   }
 
-  /* line 517, ../compass/sass/style.scss */
+  /* line 518, ../compass/sass/style.scss */
   #freeCtas {
     display: none;
   }
 
-  /* line 523, ../compass/sass/style.scss */
+  /* line 524, ../compass/sass/style.scss */
   #socialNav, #nav, #fixSmallNav {
     display: none;
   }
 
-  /* line 527, ../compass/sass/style.scss */
+  /* line 528, ../compass/sass/style.scss */
   #mobileNav {
     display: block;
   }
-  /* line 529, ../compass/sass/style.scss */
+  /* line 530, ../compass/sass/style.scss */
   #mobileNav .md-toolbar-tools {
     background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b);
     background: -o-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
     background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
     background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
   }
-  /* line 535, ../compass/sass/style.scss */
+  /* line 536, ../compass/sass/style.scss */
   #mobileNav i {
     color: #fff;
   }
 
-  /* line 540, ../compass/sass/style.scss */
+  /* line 541, ../compass/sass/style.scss */
   #fixedMobileNav {
     display: block;
     position: fixed;
     top: 0;
   }
-  /* line 544, ../compass/sass/style.scss */
+  /* line 545, ../compass/sass/style.scss */
   #fixedMobileNav .md-toolbar-tools {
     background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b);
     background: -o-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
     background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
     background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
   }
-  /* line 550, ../compass/sass/style.scss */
+  /* line 551, ../compass/sass/style.scss */
   #fixedMobileNav i {
     color: #fff;
   }
 
-  /* line 555, ../compass/sass/style.scss */
+  /* line 556, ../compass/sass/style.scss */
   #fixedToggleNav {
     position: fixed;
     top: 47;
@@ -623,7 +624,7 @@ footer p {
     padding-top: 3em;
     height: 36%;
   }
-  /* line 566, ../compass/sass/style.scss */
+  /* line 567, ../compass/sass/style.scss */
   #fixedToggleNav .md-toolbar-tools {
     background: #237a2b;
     background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b);
@@ -631,20 +632,20 @@ footer p {
     background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
     background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
   }
-  /* line 573, ../compass/sass/style.scss */
+  /* line 574, ../compass/sass/style.scss */
   #fixedToggleNav a, #fixedToggleNav md-button {
     width: 100%;
   }
-  /* line 576, ../compass/sass/style.scss */
+  /* line 577, ../compass/sass/style.scss */
   #fixedToggleNav div {
     padding-top: 1em;
   }
-  /* line 579, ../compass/sass/style.scss */
+  /* line 580, ../compass/sass/style.scss */
   #fixedToggleNav i {
     color: #fff;
   }
 
-  /* line 584, ../compass/sass/style.scss */
+  /* line 585, ../compass/sass/style.scss */
   #toggledMobileNav {
     background: #237a2b;
     background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b);
@@ -655,7 +656,7 @@ footer p {
     padding-top: 3em;
     height: 15%;
   }
-  /* line 593, ../compass/sass/style.scss */
+  /* line 594, ../compass/sass/style.scss */
   #toggledMobileNav .md-toolbar-tools {
     background: #237a2b;
     background: -webkit-linear-gradient(left, #237a2b, #5ba63d, #237a2b);
@@ -663,88 +664,88 @@ footer p {
     background: -moz-linear-gradient(right, #237a2b, #5ba63d, #237a2b);
     background: linear-gradient(to right, #237a2b, #5ba63d, #237a2b);
   }
-  /* line 600, ../compass/sass/style.scss */
+  /* line 601, ../compass/sass/style.scss */
   #toggledMobileNav a, #toggledMobileNav md-button {
     width: 100%;
   }
-  /* line 603, ../compass/sass/style.scss */
+  /* line 604, ../compass/sass/style.scss */
   #toggledMobileNav div {
     padding-top: 1em;
   }
-  /* line 606, ../compass/sass/style.scss */
+  /* line 607, ../compass/sass/style.scss */
   #toggledMobileNav i {
     color: #fff;
   }
 
-  /* line 615, ../compass/sass/style.scss */
+  /* line 616, ../compass/sass/style.scss */
   #deadlines {
     margin-top: 17em;
   }
 }
 @media only screen and (max-width: 960px) {
-  /* line 622, ../compass/sass/style.scss */
+  /* line 623, ../compass/sass/style.scss */
   #gridList {
     display: none;
   }
 
-  /* line 625, ../compass/sass/style.scss */
+  /* line 626, ../compass/sass/style.scss */
   #services
   p {
     width: 87%;
   }
 
-  /* line 630, ../compass/sass/style.scss */
+  /* line 631, ../compass/sass/style.scss */
   #about {
     width: 90%;
     padding: 2em;
   }
 
-  /* line 635, ../compass/sass/style.scss */
+  /* line 636, ../compass/sass/style.scss */
   #resourcesSmallView {
     display: initial;
     text-align: center;
     margin: auto;
     color: #000;
   }
-  /* line 640, ../compass/sass/style.scss */
+  /* line 641, ../compass/sass/style.scss */
   #resourcesSmallView i, #resourcesSmallView h4 {
     color: #237a2b;
   }
-  /* line 643, ../compass/sass/style.scss */
+  /* line 644, ../compass/sass/style.scss */
   #resourcesSmallView i {
     font-size: 2em;
   }
-  /* line 646, ../compass/sass/style.scss */
+  /* line 647, ../compass/sass/style.scss */
   #resourcesSmallView div {
     margin: auto 2em 6em 2em;
   }
-  /* line 649, ../compass/sass/style.scss */
+  /* line 650, ../compass/sass/style.scss */
   #resourcesSmallView a {
     color: #000;
   }
-  /* line 652, ../compass/sass/style.scss */
+  /* line 653, ../compass/sass/style.scss */
   #resourcesSmallView p {
     padding: 0;
   }
 }
 @media only screen and (max-width: 730px) {
-  /* line 660, ../compass/sass/style.scss */
+  /* line 661, ../compass/sass/style.scss */
   #rewards {
     margin: auto .3em;
   }
-  /* line 662, ../compass/sass/style.scss */
+  /* line 663, ../compass/sass/style.scss */
   #rewards p {
     height: 7em;
     margin: 3em auto;
   }
 
-  /* line 667, ../compass/sass/style.scss */
+  /* line 668, ../compass/sass/style.scss */
   #successBox {
     padding: .1em;
   }
 }
 @media only screen and (max-width: 599px) {
-  /* line 674, ../compass/sass/style.scss */
+  /* line 675, ../compass/sass/style.scss */
   .flex-xs-100 {
     -webkit-flex: 0;
     flex: 1 1 19% !important;
