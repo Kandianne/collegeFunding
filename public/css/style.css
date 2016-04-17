@@ -559,6 +559,7 @@ footer p {
 
   /* line 510, ../compass/sass/style.scss */
   #threeMainCtas {
+    margin-top: 13em;
     width: 96%;
   }
   /* line 513, ../compass/sass/style.scss */
@@ -687,68 +688,73 @@ footer p {
 }
 @media only screen and (max-width: 960px) {
   /* line 626, ../compass/sass/style.scss */
+  #threeMainCtas {
+    margin-top: 0em;
+  }
+
+  /* line 630, ../compass/sass/style.scss */
   #gridList {
     display: none;
   }
 
-  /* line 629, ../compass/sass/style.scss */
+  /* line 633, ../compass/sass/style.scss */
   #services
   p {
     width: 87%;
   }
 
-  /* line 634, ../compass/sass/style.scss */
+  /* line 638, ../compass/sass/style.scss */
   #about {
     width: 90%;
     padding: 2em;
   }
 
-  /* line 639, ../compass/sass/style.scss */
+  /* line 643, ../compass/sass/style.scss */
   #resourcesSmallView {
     display: initial;
     text-align: center;
     margin: auto;
     color: #000;
   }
-  /* line 644, ../compass/sass/style.scss */
+  /* line 648, ../compass/sass/style.scss */
   #resourcesSmallView i, #resourcesSmallView h4 {
     color: #237a2b;
   }
-  /* line 647, ../compass/sass/style.scss */
+  /* line 651, ../compass/sass/style.scss */
   #resourcesSmallView i {
     font-size: 2em;
   }
-  /* line 650, ../compass/sass/style.scss */
+  /* line 654, ../compass/sass/style.scss */
   #resourcesSmallView div {
     margin: auto 2em 6em 2em;
   }
-  /* line 653, ../compass/sass/style.scss */
+  /* line 657, ../compass/sass/style.scss */
   #resourcesSmallView a {
     color: #000;
   }
-  /* line 656, ../compass/sass/style.scss */
+  /* line 660, ../compass/sass/style.scss */
   #resourcesSmallView p {
     padding: 0;
   }
 }
 @media only screen and (max-width: 730px) {
-  /* line 664, ../compass/sass/style.scss */
+  /* line 668, ../compass/sass/style.scss */
   #rewards {
     margin: auto .3em;
   }
-  /* line 666, ../compass/sass/style.scss */
+  /* line 670, ../compass/sass/style.scss */
   #rewards p {
     height: 7em;
     margin: 3em auto;
   }
 
-  /* line 671, ../compass/sass/style.scss */
+  /* line 675, ../compass/sass/style.scss */
   #successBox {
     padding: .1em;
   }
 }
 @media only screen and (max-width: 599px) {
-  /* line 678, ../compass/sass/style.scss */
+  /* line 682, ../compass/sass/style.scss */
   .flex-xs-100 {
     -webkit-flex: 0;
     flex: 1 1 19% !important;
