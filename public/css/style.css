@@ -698,68 +698,73 @@ footer p {
   }
 
   /* line 634, ../compass/sass/style.scss */
+  #ready {
+    margin-bottom: 19em;
+  }
+
+  /* line 638, ../compass/sass/style.scss */
   #gridList {
     display: none;
   }
 
-  /* line 637, ../compass/sass/style.scss */
+  /* line 641, ../compass/sass/style.scss */
   #services
   p {
     width: 87%;
   }
 
-  /* line 642, ../compass/sass/style.scss */
+  /* line 646, ../compass/sass/style.scss */
   #about {
     width: 90%;
     padding: 2em;
   }
 
-  /* line 647, ../compass/sass/style.scss */
+  /* line 651, ../compass/sass/style.scss */
   #resourcesSmallView {
     display: initial;
     text-align: center;
     margin: auto;
     color: #000;
   }
-  /* line 652, ../compass/sass/style.scss */
+  /* line 656, ../compass/sass/style.scss */
   #resourcesSmallView i, #resourcesSmallView h4 {
     color: #237a2b;
   }
-  /* line 655, ../compass/sass/style.scss */
+  /* line 659, ../compass/sass/style.scss */
   #resourcesSmallView i {
     font-size: 2em;
   }
-  /* line 658, ../compass/sass/style.scss */
+  /* line 662, ../compass/sass/style.scss */
   #resourcesSmallView div {
     margin: auto 2em 6em 2em;
   }
-  /* line 661, ../compass/sass/style.scss */
+  /* line 665, ../compass/sass/style.scss */
   #resourcesSmallView a {
     color: #000;
   }
-  /* line 664, ../compass/sass/style.scss */
+  /* line 668, ../compass/sass/style.scss */
   #resourcesSmallView p {
     padding: 0;
   }
 }
 @media only screen and (max-width: 730px) {
-  /* line 672, ../compass/sass/style.scss */
+  /* line 676, ../compass/sass/style.scss */
   #rewards {
     margin: auto .3em;
   }
-  /* line 674, ../compass/sass/style.scss */
+  /* line 678, ../compass/sass/style.scss */
   #rewards p {
     height: 7em;
     margin: 3em auto;
   }
 
-  /* line 679, ../compass/sass/style.scss */
+  /* line 683, ../compass/sass/style.scss */
   #successBox {
     padding: .1em;
   }
 }
 @media only screen and (max-width: 599px) {
-  /* line 686, ../compass/sass/style.scss */
+  /* line 690, ../compass/sass/style.scss */
   .flex-xs-100 {
     -webkit-flex: 0;
     flex: 1 1 19% !important;
