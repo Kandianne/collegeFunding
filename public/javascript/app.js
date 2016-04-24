@@ -37,10 +37,13 @@
 		}).state('Contact',{
 			url: '/contact',
 			templateUrl: 'templates/contact.html'
-		}).state('Workshop',{
+		}).state('WorkshopA',{
+			url: '/workshopA',
+			templateUrl: 'templates/workshopA.html'
+		}).state('Workshop',{ //this is without the hashtag
 			url: '/workshop',
 			templateUrl: 'views/workshop.html'
-		})
+		});
 
 		$urlRouterProvider.otherwise('/home');
 	}
