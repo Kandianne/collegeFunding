@@ -30,6 +30,10 @@ app.get('/', function(req, res) {
 	res.render('index');
 });
 
+app.get('/workshop', function(req, res) {
+	res.render('Workshop');
+});
+
 app.use('/api/contact-form', contactRoutes);
 
 

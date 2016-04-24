@@ -39,14 +39,14 @@
 			templateUrl: 'templates/contact.html'
 		}).state('Workshop',{
 			url: '/workshop',
-			templateUrl: 'templates/workshop.html'
+			templateUrl: 'views/workshop.html'
 		})
 
 		$locationProvider.html5Mode({
   		enabled: true,
   		requireBase: false
 		});
-		
+
 		$urlRouterProvider.otherwise('/home');
 	}
 })();
