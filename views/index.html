@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.3/angular-material.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/site.css">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<base href="/">
 </head>
 <body ng-controller="HomeController as vm" style="height:1300px" ng-cloak>
 
@@ -92,30 +93,35 @@
 	
 	<md-toolbar class="md-accent" id="nav">
 		<div class="md-toolbar-tools" layout="row" layout-md="column" layout-align="center center" layout-wrap>
-			<a href="#/home">
+			<a href="/home">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/home') }">
 					Home
 				</md-button>
 			</a>
-			<a href="#/about">
+			<a href="/about">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/about') }">
 					About
 				</md-button>
 			</a>
-			<a href="#/resources">
+			<a href="/resources">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/resources') }">
 					Resources
 				</md-button>
 			</a>
-			<a href="#/stories">
+			<a href="/stories">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/stories') }" >
 					ScholarShip Successes
 				</md-button>
 			</a>
 			</a>
-			<a href="#/contact">
+			<a href="/contact">
 				<md-button class="md-button" ng-class="{ active: isCurrentPath('/contact') }">
 					Contact
+				</md-button>
+			</a>
+			<a href="/workshop">
+				<md-button class="md-button" ng-class="{ active: isCurrentPath('/contact') }">
+					Workshop
 				</md-button>
 			</a>
 			<a ng-click="ebook = !ebook">
@@ -140,28 +146,28 @@
 
 <md-toolbar class="md-whiteframe-13dp" ng-show="showMobileButtons" id="toggledMobileNav">
 		<div class="md-toolbar-tools" layout-md="column" layout-align="center center" layout-wrap>
-			<a href="#/home" layout>
+			<a href="/home" layout>
 				<md-button ng-click="showMobileButtons = !showMobileButtons" class="md-button" ng-class="{ active: isCurrentPath('/home') }" flex>
 					Home
 				</md-button>
 			</a>
-			<a href="#/about" layout>
+			<a href="/about" layout>
 				<md-button ng-click="showMobileButtons = !showMobileButtons" class="md-button" ng-class="{ active: isCurrentPath('/about') }" flex>
 					About
 				</md-button>
 			</a>
-			<a href="#/resources" layout>
+			<a href="/resources" layout>
 				<md-button ng-click="showMobileButtons = !showMobileButtons" class="md-button" ng-class="{ active: isCurrentPath('/resources') }" flex>
 					Resources
 				</md-button>
 			</a>
-			<a href="#/stories" layout>
+			<a href="/stories" layout>
 				<md-button ng-click="showMobileButtons = !showMobileButtons" class="md-button" ng-class="{ active: isCurrentPath('/stories') }" flex>
 					ScholarShip Successes
 				</md-button>
 			</a>
 			</a>
-			<a href="#/contact" layout>
+			<a href="/contact" layout>
 				<md-button ng-click="showMobileButtons = !showMobileButtons" class="md-button" ng-class="{ active: isCurrentPath('/contact') }" flex>
 					Contact
 				</md-button>

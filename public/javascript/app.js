@@ -14,8 +14,8 @@
       'default': '600', // by default use shade 400 from the pink palette for primary intentions
   });
 	});
-	Config.$inject = ['$stateProvider', '$urlRouterProvider', '$mdThemingProvider'];
-	function Config($stateProvider, $urlRouterProvider, $mdThemingProvider) {
+	Config.$inject = ['$stateProvider', '$urlRouterProvider', '$mdThemingProvider', '$locationProvider'];
+	function Config($stateProvider, $urlRouterProvider, $mdThemingProvider, $locationProvider) {
 		$stateProvider.state('Home',{
 			url: '/home',
 			templateUrl: 'templates/home.html'
@@ -39,8 +39,14 @@
 			templateUrl: 'templates/contact.html'
 		}).state('Workshop',{
 			url: '/workshop',
-			templateUrl: 'templates/workshop'
+			templateUrl: 'templates/workshop.html'
+		})
+
+		$locationProvider.html5Mode({
+  		enabled: true,
+  		requireBase: false
 		});
+		
 		$urlRouterProvider.otherwise('/home');
 	}
 })();
