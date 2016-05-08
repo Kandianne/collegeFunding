@@ -775,7 +775,7 @@ footer p {
 
   /* line 694, ../compass/sass/style.scss */
   #deadlines div.countingDown {
-    margin-top: 16em;
+    margin-top: -9em;
   }
 }
 @media only screen and (max-width: 599px) {
