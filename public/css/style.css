@@ -801,4 +801,9 @@ footer p {
     -webkit-flex: 0;
     flex: 1 1 19% !important;
   }
+
+  /* line 717, ../compass/sass/style.scss */
+  #globalSignUp {
+    display: none;
+  }
 }
