@@ -123,11 +123,11 @@
 					Workshop
 				</md-button>
 			</a>
-			<a ng-click="ebook = !ebook">
+<!-- 			<a ng-click="ebook = !ebook">
 				<md-button>
 					E-BOOK
 				</md-button>
-			</a>
+			</a> -->
 		</div>
 	</md-toolbar>
 
@@ -175,15 +175,16 @@
 </md-toolbar>
 
 
-<!-- ========================================TOGGLED CARD FOR FREEBOOK SIGNUP================================================================ -->
+<!-- ========================================FREEBOOK SIGNUP================================================================ -->
 
-<form ng-show="ebook" id="globalSignUp" class="md-whiteframe-7dp" flex="60" layout-align="center center" method="post" action="https://app.icontact.com/icp/signup.php" name="icpsignup" id="icpsignup3500" accept-charset="UTF-8" onsubmit="return verifyRequired3500();" >
+<form id="globalSignUp" class="md-whiteframe-7dp" flex="60" layout-align="center center" method="post" action="https://app.icontact.com/icp/signup.php" name="icpsignup" id="icpsignup3500" accept-charset="UTF-8" onsubmit="return verifyRequired3500();" >
 
 	<input type="hidden" name="redirect" value="http://www.icontact.com/www/signup/thanks.html">
 	<input type="hidden" name="errorredirect" value="http://www.icontact.com/www/signup/error.html">
 
 	<div>
-		<h5>FREE Book/Video Reveals How To Get FREE Money Scholarships & Grants To Pay For College!</h5>
+		<!-- <h5>FREE Book/Video Reveals How To Get FREE Money Scholarships & Grants To Pay For College!</h5> -->
+		<h5>Sign up for FREE Book/Video</h5>
 		<md-input-container layout>
 			<label>
 				First Name
@@ -218,7 +219,7 @@
 	    <input type="hidden" name="reallistid" value="1">
 	    <input type="hidden" name="doubleopt" value="0">
 	    
-	    <md-button class="md-button md-raised" ng-click="ebook = !ebook" value="submit" name="Submit" type="submit" layout>
+	    <md-button class="md-button md-raised" ng-click="ebook = !ebook" value="submit" name="Submit" type="submit">
 			SUBMIT FOR FREE BOOK
 		</md-button>
 	 </div>
